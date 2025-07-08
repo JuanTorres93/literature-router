@@ -1,5 +1,6 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import DevelopmentPage from "../pages/DevelopmentPage";
+import HomePage from "../pages/HomePage";
 import NavBar from "./NavBar";
 import Message from "./Message";
 
@@ -8,7 +9,7 @@ function App() {
     <BrowserRouter>
       <Routes>
         {/* TODO create actual page */}
-        <Route index element={<DevelopmentPage />} />
+        <Route path="/" element={<HomePage />} />
         <Route
           path="/fav-books"
           // TODO create actual page
@@ -29,6 +30,8 @@ function App() {
             </>
           }
         />
+        {/* TODO IMPORTANT comment when finshed or add conditional render with NODE_ENV */}
+        <Route path="/development" element={<DevelopmentPage />} />
 
         <Route
           path="*"

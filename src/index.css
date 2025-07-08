@@ -46,3 +46,15 @@ body {
   box-sizing: border-box;
   font-size: 1.6rem;
 }
+
+input {
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+  font-style: inherit;
+  color: var(--color-text);
+  border: none;
+  outline: none;
+  padding: 1rem 2rem;
+  border-radius: 0.6rem;
+}
