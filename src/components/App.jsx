@@ -1,5 +1,6 @@
 import BookSummary from "./BookSummary";
 import Button from "./Button";
+import Message from "./Message";
 
 function App() {
   return (
@@ -9,6 +10,8 @@ function App() {
       <Button type="primary" onClick={() => alert("hey!")}>
         Button
       </Button>
+      <Message>Message text</Message>
+      <Message type="error">Message text</Message>
     </div>
   );
 }
