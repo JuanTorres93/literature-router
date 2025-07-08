@@ -1,0 +1,39 @@
+.navbar {
+  background-color: var(--color-primary);
+  font-weight: 500;
+  text-transform: uppercase;
+  border-radius: 1rem;
+  opacity: 0.95;
+
+  position: fixed;
+  top: 1rem;
+  left: 1rem;
+  z-index: 9999;
+}
+
+.navbar ul {
+  display: flex;
+  list-style: none;
+}
+
+.navbar li {
+  padding: 1rem 2rem;
+}
+
+.navbar a,
+.navbar a:link,
+.navbar a:visited {
+  color: var(--color-bg);
+  text-decoration: none;
+  transition: all 0.2s ease-in-out;
+  cursor: pointer;
+  padding: 1rem 2rem;
+}
+
+.navbar a:hover {
+  color: var(--color-secondary-light);
+}
+
+.navbar a:global(.active) {
+  background-color: var(--color-primary-light);
+}

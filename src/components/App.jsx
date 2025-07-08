@@ -1,18 +1,42 @@
-import BookSummary from "./BookSummary";
-import Button from "./Button";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import DevelopmentPage from "../pages/DevelopmentPage";
+import NavBar from "./NavBar";
 import Message from "./Message";
 
 function App() {
   return (
-    <div>
-      <BookSummary />
-      <Button>Button</Button>
-      <Button type="primary" onClick={() => alert("hey!")}>
-        Button
-      </Button>
-      <Message>Message text</Message>
-      <Message type="error">Message text</Message>
-    </div>
+    <BrowserRouter>
+      <Routes>
+        {/* TODO create actual page */}
+        <Route index element={<DevelopmentPage />} />
+        <Route
+          path="/fav-books"
+          // TODO create actual page
+          element={
+            <>
+              <NavBar />
+              <p>Fav books!</p>
+            </>
+          }
+        />
+        <Route
+          path="/fav-authors"
+          // TODO create actual page
+          element={
+            <>
+              <NavBar />
+              <p>Fav authors!</p>
+            </>
+          }
+        />
+
+        <Route
+          path="*"
+          // TODO create actual page
+          element={<Message type="error">This page does not exist</Message>}
+        />
+      </Routes>
+    </BrowserRouter>
   );
 }
 
