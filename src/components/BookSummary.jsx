@@ -174,7 +174,7 @@ function BookSummary({ bookKey }) {
   return (
     <div className={styles.bookSummary}>
       {/* TODO include src */}
-      <img src="" alt={`${exampleBookDelete.title} cover image`} />
+      <img src={null} alt={`${exampleBookDelete.title} cover image`} />
       <h3 className={styles.title}>{exampleBookDelete.title}</h3>
       <h4 className={styles.author}>by Author</h4>
       <p>{summary}</p>

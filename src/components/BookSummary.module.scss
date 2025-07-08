@@ -23,7 +23,7 @@
   transition: all 0.2s ease-in-out;
 
   &:hover {
-    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0.7rem 2rem rgba($color-border, 0.7);
     background-color: $color-border;
     transform: translateY(-0.5rem);
   }

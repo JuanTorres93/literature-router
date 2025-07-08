@@ -1,3 +1,5 @@
+<!-- TODO change when project is finished -->
+
 ![Static Badge](https://img.shields.io/badge/Status-Work%20in%20progress-purple)
 
 # 🌕 Project's purpose

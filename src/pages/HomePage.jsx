@@ -2,6 +2,7 @@ import styles from "./HomePage.module.scss";
 import NavBar from "../components/NavBar";
 import SearchBar from "../components/SearchBar";
 import RandomQuestion from "../components/RandomQuestion";
+import BookList from "../components/BookList";
 
 function HomePage() {
   return (
@@ -12,7 +13,9 @@ function HomePage() {
         <SearchBar />
       </section>
 
-      <section>Books list</section>
+      <section className={styles.listSection}>
+        <BookList />
+      </section>
     </main>
   );
 }
