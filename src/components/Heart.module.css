@@ -1,0 +1,14 @@
+.heart {
+  width: 4rem;
+  height: 4rem;
+}
+
+.heart svg {
+  transition: all 0.25s;
+  fill: var(--color-bg);
+}
+
+.heart svg:hover {
+  fill: var(--color-secondary);
+  filter: drop-shadow(0 0 1rem var(--color-secondary-light));
+}

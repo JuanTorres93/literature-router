@@ -1,0 +1,980 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="508mm"
+   height="285.75mm"
+   viewBox="0 0 508 285.75"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.4.2 (ebf0e940d0, 2025-05-08)"
+   sodipodi:docname="UI.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     inkscape:zoom="0.46872699"
+     inkscape:cx="3906.3251"
+     inkscape:cy="-972.84776"
+     inkscape:window-width="2536"
+     inkscape:window-height="1399"
+     inkscape:window-x="10"
+     inkscape:window-y="27"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1">
+    <inkscape:page
+       x="0"
+       y="0"
+       width="508"
+       height="285.75"
+       id="page2"
+       margin="0"
+       bleed="0" />
+    <inkscape:page
+       x="317.54437"
+       y="-482.54169"
+       width="240.56303"
+       height="294.52963"
+       id="page3"
+       margin="0"
+       bleed="0" />
+  </sodipodi:namedview>
+  <defs
+     id="defs1" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(908.45719,-284.27366)">
+    <text
+       xml:space="preserve"
+       style="font-weight:bold;font-size:5.64444px;line-height:1.7;font-family:Montserrat;-inkscape-font-specification:'Montserrat Bold';text-align:start;text-decoration-color:#000000;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#000000;stroke:none;stroke-width:0.0649999;-inkscape-stroke:none"
+       x="-576.5592"
+       y="-180.64413"
+       id="text4"><tspan
+         sodipodi:role="line"
+         id="tspan4"
+         style="font-size:5.64444px;stroke-width:0.065"
+         x="-576.5592"
+         y="-180.64413">Primary</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-weight:bold;font-size:5.64444px;line-height:1.7;font-family:Montserrat;-inkscape-font-specification:'Montserrat Bold';text-align:start;text-decoration-color:#000000;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#000000;stroke:none;stroke-width:0.0649999;-inkscape-stroke:none"
+       x="-576.5592"
+       y="-105.48942"
+       id="text5"><tspan
+         sodipodi:role="line"
+         id="tspan5"
+         style="font-size:5.64444px;stroke-width:0.065"
+         x="-576.5592"
+         y="-105.48942">Secondary</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-weight:bold;font-size:5.64444px;line-height:1.7;font-family:Montserrat;-inkscape-font-specification:'Montserrat Bold';text-align:start;text-decoration-color:#000000;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#000000;stroke:none;stroke-width:0.0649999;-inkscape-stroke:none"
+       x="-576.5592"
+       y="-51.056358"
+       id="text6"><tspan
+         sodipodi:role="line"
+         id="tspan6"
+         style="font-size:5.64444px;stroke-width:0.065"
+         x="-576.5592"
+         y="-51.056358">Neutral</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-weight:bold;font-size:5.64444px;line-height:1.7;font-family:Montserrat;-inkscape-font-specification:'Montserrat Bold';text-align:start;text-decoration-color:#000000;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#000000;stroke:none;stroke-width:0.0649999;-inkscape-stroke:none"
+       x="-576.5592"
+       y="37.706623"
+       id="text7"><tspan
+         sodipodi:role="line"
+         id="tspan7"
+         style="font-size:5.64444px;stroke-width:0.065"
+         x="-576.5592"
+         y="37.706623">Functional</tspan></text>
+    <rect
+       style="fill:#6f73d2;fill-opacity:1;stroke:none;stroke-width:0.0649999;-inkscape-stroke:none"
+       id="rect7"
+       width="11.134032"
+       height="11.134032"
+       x="-575.38513"
+       y="-177.30663" />
+    <rect
+       style="fill:#8c90e5;fill-opacity:1;stroke:none;stroke-width:0.0649999;-inkscape-stroke:none"
+       id="rect8"
+       width="11.134032"
+       height="11.134032"
+       x="-575.38513"
+       y="-156.27568" />
+    <rect
+       style="fill:#4f52b3;fill-opacity:1;stroke:none;stroke-width:0.0649999;-inkscape-stroke:none"
+       id="rect9"
+       width="11.134032"
+       height="11.134032"
+       x="-575.38513"
+       y="-135.86328" />
+    <text
+       xml:space="preserve"
+       style="font-weight:bold;font-size:4.93889px;line-height:1.7;font-family:Montserrat;-inkscape-font-specification:'Montserrat Bold';text-align:start;text-decoration-color:#000000;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#4f52b3;fill-opacity:1;stroke:none;stroke-width:0.0649999;-inkscape-stroke:none"
+       x="-558.06549"
+       y="-170.19321"
+       id="text9"><tspan
+         sodipodi:role="line"
+         id="tspan9"
+         style="font-size:4.93889px;fill:#000129;fill-opacity:1;stroke-width:0.065"
+         x="-558.06549"
+         y="-170.19321">botones principales, CTA, enlaces destacados, íconos activos.</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-weight:bold;font-size:4.93889px;line-height:1.7;font-family:Montserrat;-inkscape-font-specification:'Montserrat Bold';text-align:start;text-decoration-color:#000000;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#4f52b3;fill-opacity:1;stroke:none;stroke-width:0.0649999;-inkscape-stroke:none"
+       x="-558.06549"
+       y="-149.16226"
+       id="text10"><tspan
+         sodipodi:role="line"
+         id="tspan10"
+         style="font-size:4.93889px;fill:#000129;fill-opacity:1;stroke-width:0.065"
+         x="-558.06549"
+         y="-149.16226">fondos de secciones sutiles, estados hover, sombras suaves.</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-weight:bold;font-size:4.93889px;line-height:1.7;font-family:Montserrat;-inkscape-font-specification:'Montserrat Bold';text-align:start;text-decoration-color:#000000;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#4f52b3;fill-opacity:1;stroke:none;stroke-width:0.0649999;-inkscape-stroke:none"
+       x="-558.06549"
+       y="-129.05914"
+       id="text11"><tspan
+         sodipodi:role="line"
+         id="tspan11"
+         style="font-size:4.93889px;fill:#000129;fill-opacity:1;stroke-width:0.065"
+         x="-558.06549"
+         y="-129.05914">botones presionados, texto sobre primario claro, bordes.</tspan></text>
+    <rect
+       style="fill:#d29b6f;fill-opacity:1;stroke:none;stroke-width:0.0649999;-inkscape-stroke:none"
+       id="rect11"
+       width="11.134032"
+       height="11.134032"
+       x="-575.38513"
+       y="-100.29623" />
+    <rect
+       style="fill:#f1d1b3;fill-opacity:1;stroke:none;stroke-width:0.0649999;-inkscape-stroke:none"
+       id="rect12"
+       width="11.134032"
+       height="11.134032"
+       x="-575.38513"
+       y="-79.883842" />
+    <text
+       xml:space="preserve"
+       style="font-weight:bold;font-size:4.93889px;line-height:1.7;font-family:Montserrat;-inkscape-font-specification:'Montserrat Bold';text-align:start;text-decoration-color:#000000;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#4f52b3;fill-opacity:1;stroke:none;stroke-width:0.0649999;-inkscape-stroke:none"
+       x="-558.06549"
+       y="-92.873535"
+       id="text12"><tspan
+         sodipodi:role="line"
+         id="tspan12"
+         style="font-size:4.93889px;fill:#000129;fill-opacity:1;stroke-width:0.065"
+         x="-558.06549"
+         y="-92.873535">botones secundarios, acentos, detalles decorativos.</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-weight:bold;font-size:4.93889px;line-height:1.7;font-family:Montserrat;-inkscape-font-specification:'Montserrat Bold';text-align:start;text-decoration-color:#000000;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#4f52b3;fill-opacity:1;stroke:none;stroke-width:0.0649999;-inkscape-stroke:none"
+       x="-558.06549"
+       y="-73.388977"
+       id="text13"><tspan
+         sodipodi:role="line"
+         id="tspan13"
+         style="font-size:4.93889px;fill:#000129;fill-opacity:1;stroke-width:0.065"
+         x="-558.06549"
+         y="-73.388977">fondo de tarjetas destacadas, hover del secundario.</tspan></text>
+    <rect
+       style="fill:#f5f6fa;fill-opacity:1;stroke:none;stroke-width:0.0649999;-inkscape-stroke:none"
+       id="rect18"
+       width="11.134032"
+       height="11.134032"
+       x="-575.38513"
+       y="-42.461113" />
+    <rect
+       style="fill:#dadbe5;fill-opacity:1;stroke:none;stroke-width:0.0649999;-inkscape-stroke:none"
+       id="rect19"
+       width="11.134032"
+       height="11.134032"
+       x="-575.38513"
+       y="-22.048727" />
+    <text
+       xml:space="preserve"
+       style="font-weight:bold;font-size:4.93889px;line-height:1.7;font-family:Montserrat;-inkscape-font-specification:'Montserrat Bold';text-align:start;text-decoration-color:#000000;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#4f52b3;fill-opacity:1;stroke:none;stroke-width:0.0649999;-inkscape-stroke:none"
+       x="-558.06549"
+       y="-35.038422"
+       id="text19"><tspan
+         sodipodi:role="line"
+         id="tspan19"
+         style="font-size:4.93889px;fill:#000129;fill-opacity:1;stroke-width:0.065"
+         x="-558.06549"
+         y="-35.038422">fondo del sitio o de secciones.</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-weight:bold;font-size:4.93889px;line-height:1.7;font-family:Montserrat;-inkscape-font-specification:'Montserrat Bold';text-align:start;text-decoration-color:#000000;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#4f52b3;fill-opacity:1;stroke:none;stroke-width:0.0649999;-inkscape-stroke:none"
+       x="-558.06549"
+       y="-15.553862"
+       id="text20"><tspan
+         sodipodi:role="line"
+         id="tspan20"
+         style="font-size:4.93889px;fill:#000129;fill-opacity:1;stroke-width:0.065"
+         x="-558.06549"
+         y="-15.553862">Para tarjetas, bloques de contenido, inputs.</tspan></text>
+    <rect
+       style="fill:#b1b3c7;fill-opacity:1;stroke:none;stroke-width:0.0649999;-inkscape-stroke:none"
+       id="rect20"
+       width="11.134032"
+       height="11.134032"
+       x="-575.38513"
+       y="-5.3476701" />
+    <rect
+       style="fill:#2a2a35;fill-opacity:1;stroke:none;stroke-width:0.0649999;-inkscape-stroke:none"
+       id="rect21"
+       width="11.134032"
+       height="11.134032"
+       x="-575.38513"
+       y="15.064715" />
+    <text
+       xml:space="preserve"
+       style="font-weight:bold;font-size:4.93889px;line-height:1.7;font-family:Montserrat;-inkscape-font-specification:'Montserrat Bold';text-align:start;text-decoration-color:#000000;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#4f52b3;fill-opacity:1;stroke:none;stroke-width:0.0649999;-inkscape-stroke:none"
+       x="-558.06549"
+       y="2.0750213"
+       id="text21"><tspan
+         sodipodi:role="line"
+         id="tspan21"
+         style="font-size:4.93889px;fill:#000129;fill-opacity:1;stroke-width:0.065"
+         x="-558.06549"
+         y="2.0750213">Borde / sombra / hover background</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-weight:bold;font-size:4.93889px;line-height:1.7;font-family:Montserrat;-inkscape-font-specification:'Montserrat Bold';text-align:start;text-decoration-color:#000000;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#4f52b3;fill-opacity:1;stroke:none;stroke-width:0.0649999;-inkscape-stroke:none"
+       x="-558.06549"
+       y="21.559582"
+       id="text22"><tspan
+         sodipodi:role="line"
+         id="tspan22"
+         style="font-size:4.93889px;fill:#000129;fill-opacity:1;stroke-width:0.065"
+         x="-558.06549"
+         y="21.559582">Texto principal</tspan></text>
+    <rect
+       style="fill:#5cc18c;fill-opacity:1;stroke:none;stroke-width:0.0649999;-inkscape-stroke:none"
+       id="rect22"
+       width="11.134032"
+       height="11.134032"
+       x="-575.38513"
+       y="43.209084" />
+    <rect
+       style="fill:#e8b85d;fill-opacity:1;stroke:none;stroke-width:0.0649999;-inkscape-stroke:none"
+       id="rect23"
+       width="11.134032"
+       height="11.134032"
+       x="-575.38513"
+       y="63.621471" />
+    <text
+       xml:space="preserve"
+       style="font-weight:bold;font-size:4.93889px;line-height:1.7;font-family:Montserrat;-inkscape-font-specification:'Montserrat Bold';text-align:start;text-decoration-color:#000000;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#4f52b3;fill-opacity:1;stroke:none;stroke-width:0.0649999;-inkscape-stroke:none"
+       x="-558.06549"
+       y="50.631775"
+       id="text23"><tspan
+         sodipodi:role="line"
+         id="tspan23"
+         style="font-size:4.93889px;fill:#000129;fill-opacity:1;stroke-width:0.065"
+         x="-558.06549"
+         y="50.631775">confirmaciones, estados validados.</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-weight:bold;font-size:4.93889px;line-height:1.7;font-family:Montserrat;-inkscape-font-specification:'Montserrat Bold';text-align:start;text-decoration-color:#000000;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#4f52b3;fill-opacity:1;stroke:none;stroke-width:0.0649999;-inkscape-stroke:none"
+       x="-558.06549"
+       y="70.116333"
+       id="text24"><tspan
+         sodipodi:role="line"
+         id="tspan24"
+         style="font-size:4.93889px;fill:#000129;fill-opacity:1;stroke-width:0.065"
+         x="-558.06549"
+         y="70.116333">alertas suaves, notificaciones.</tspan></text>
+    <rect
+       style="fill:#d66f6f;fill-opacity:1;stroke:none;stroke-width:0.0649999;-inkscape-stroke:none"
+       id="rect24"
+       width="11.134032"
+       height="11.134032"
+       x="-575.38513"
+       y="80.322525" />
+    <text
+       xml:space="preserve"
+       style="font-weight:bold;font-size:4.93889px;line-height:1.7;font-family:Montserrat;-inkscape-font-specification:'Montserrat Bold';text-align:start;text-decoration-color:#000000;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#4f52b3;fill-opacity:1;stroke:none;stroke-width:0.0649999;-inkscape-stroke:none"
+       x="-558.06549"
+       y="87.745216"
+       id="text25"><tspan
+         sodipodi:role="line"
+         id="tspan25"
+         style="font-size:4.93889px;fill:#000129;fill-opacity:1;stroke-width:0.065"
+         x="-558.06549"
+         y="87.745216">errores, formularios inválidos, alertas críticas.</tspan></text>
+    <rect
+       style="fill:#f5f6fa;fill-opacity:1;stroke:none;stroke-width:0.0649999;-inkscape-stroke:none"
+       id="rect25"
+       width="508"
+       height="285.75"
+       x="-248.43829"
+       y="-194.28981" />
+    <rect
+       style="fill:#f5f6fa;fill-opacity:1;stroke:none;stroke-width:0.0649999;-inkscape-stroke:none"
+       id="rect26"
+       width="508"
+       height="285.75"
+       x="-248.43829"
+       y="121.86411" />
+    <rect
+       style="fill:#8c90e5;fill-opacity:1;stroke:none;stroke-width:0.0649999;-inkscape-stroke:none"
+       id="rect27"
+       width="254"
+       height="285.75"
+       x="-248.43831"
+       y="-194.28979" />
+    <rect
+       style="fill:#dadbe5;fill-opacity:1;stroke:none;stroke-width:0.0649999;-inkscape-stroke:none"
+       id="rect28"
+       width="165.47691"
+       height="27.874451"
+       x="-204.51663"
+       y="-75.881966"
+       ry="13.937225" />
+    <text
+       xml:space="preserve"
+       style="font-weight:bold;font-size:8.46667px;line-height:1.7;font-family:Montserrat;-inkscape-font-specification:'Montserrat Bold';text-align:start;text-decoration-color:#000000;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#4f52b3;fill-opacity:1;stroke:none;stroke-width:0.0649999;-inkscape-stroke:none"
+       x="-189.03085"
+       y="-86.943283"
+       id="text28"><tspan
+         sodipodi:role="line"
+         id="tspan28"
+         style="font-size:8.46667px;stroke-width:0.065"
+         x="-189.03085"
+         y="-86.943283">Random question to ask user?</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-weight:bold;font-size:8.46667px;line-height:1.7;font-family:Montserrat;-inkscape-font-specification:'Montserrat Bold';text-align:start;text-decoration-color:#000000;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#b1b3c7;fill-opacity:1;stroke:none;stroke-width:0.0649999;-inkscape-stroke:none"
+       x="-189.03085"
+       y="-64.820702"
+       id="text29"><tspan
+         sodipodi:role="line"
+         id="tspan29"
+         style="font-size:8.46667px;fill:#b1b3c7;fill-opacity:1;stroke-width:0.065"
+         x="-189.03085"
+         y="-64.820702">Placeholder</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-weight:bold;font-size:8.46667px;line-height:1.7;font-family:Montserrat;-inkscape-font-specification:'Montserrat Bold';text-align:start;text-decoration-color:#000000;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#2a2a35;fill-opacity:1;stroke:none;stroke-width:0.0649999;-inkscape-stroke:none"
+       x="-189.03085"
+       y="-55.529217"
+       id="text30"><tspan
+         sodipodi:role="line"
+         id="tspan30"
+         style="font-size:8.46667px;fill:#2a2a35;fill-opacity:1;stroke-width:0.065"
+         x="-189.03085"
+         y="-55.529217">Actual text</tspan></text>
+    <rect
+       style="fill:#dadbe5;fill-opacity:1;stroke:none;stroke-width:0.0649999;-inkscape-stroke:none"
+       id="rect30"
+       width="230.5173"
+       height="37.165936"
+       x="15.824301"
+       y="-179.41566"
+       ry="13.937225" />
+    <text
+       xml:space="preserve"
+       style="font-weight:bold;font-size:8.46667px;line-height:1.7;font-family:Montserrat;-inkscape-font-specification:'Montserrat Bold';text-align:start;text-decoration-color:#000000;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#bf0808;fill-opacity:1;stroke:none;stroke-width:0.0649999;-inkscape-stroke:none"
+       x="-130.18477"
+       y="-38.27359"
+       id="text31"><tspan
+         sodipodi:role="line"
+         id="tspan31"
+         style="stroke-width:0.065;fill:#bf0808;fill-opacity:1"
+         x="-130.18477"
+         y="-38.27359">Sombra cuando está focus</tspan></text>
+    <path
+       sodipodi:type="star"
+       style="fill:#f5f6fa;fill-opacity:1;stroke:none;stroke-width:0.0649999;-inkscape-stroke:none"
+       id="path31"
+       inkscape:flatsided="false"
+       sodipodi:sides="5"
+       sodipodi:cx="222.4492"
+       sodipodi:cy="-162.16005"
+       sodipodi:r1="8.8490334"
+       sodipodi:r2="4.4245162"
+       sodipodi:arg1="0.92729522"
+       sodipodi:arg2="1.5556137"
+       inkscape:rounded="0"
+       inkscape:randomized="0"
+       d="m 227.75862,-155.08082 -5.24224,-2.65522 -5.15922,2.81315 0.90532,-5.80618 -4.26975,-4.0374 5.80176,-0.93319 2.52037,-5.3084 2.68036,5.22943 5.82743,0.75662 -4.14521,4.16517 z"
+       inkscape:transform-center-x="0.041515188"
+       inkscape:transform-center-y="-0.80542677"
+       transform="translate(5.7518714,0.88490329)" />
+    <path
+       sodipodi:type="star"
+       style="fill:#d29b6f;fill-opacity:1;stroke:none;stroke-width:0.0649999;-inkscape-stroke:none"
+       id="path32"
+       inkscape:flatsided="false"
+       sodipodi:sides="5"
+       sodipodi:cx="222.4492"
+       sodipodi:cy="-162.16005"
+       sodipodi:r1="8.8490334"
+       sodipodi:r2="4.4245162"
+       sodipodi:arg1="0.92729522"
+       sodipodi:arg2="1.5556137"
+       inkscape:rounded="0"
+       inkscape:randomized="0"
+       d="m 227.75862,-155.08082 -5.24224,-2.65522 -5.15922,2.81315 0.90532,-5.80618 -4.26975,-4.0374 5.80176,-0.93319 2.52037,-5.3084 2.68036,5.22943 5.82743,0.75662 -4.14521,4.16517 z"
+       inkscape:transform-center-x="0.041515188"
+       inkscape:transform-center-y="-0.80542677"
+       transform="translate(26.104647,1.3273549)" />
+    <text
+       xml:space="preserve"
+       style="font-weight:bold;font-size:8.46667px;line-height:1.7;font-family:Montserrat;-inkscape-font-specification:'Montserrat Bold';text-align:start;text-decoration-color:#000000;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#bf0808;fill-opacity:1;stroke:none;stroke-width:0.0649999;-inkscape-stroke:none"
+       x="249.43874"
+       y="-177.64586"
+       id="text32"><tspan
+         sodipodi:role="line"
+         id="tspan32"
+         style="fill:#bf0808;fill-opacity:1;stroke-width:0.065"
+         x="249.43874"
+         y="-177.64586">Corazón. color secundario cuando es favorito</tspan></text>
+    <rect
+       style="fill:#d29b6f;fill-opacity:1;stroke:none;stroke-width:0.0649999;-inkscape-stroke:none"
+       id="rect32"
+       width="31.856518"
+       height="22.122581"
+       x="26.443098"
+       y="-172.33643"
+       ry="5.7518749"
+       rx="0" />
+    <text
+       xml:space="preserve"
+       style="font-weight:bold;font-size:8.46667px;line-height:1.7;font-family:Montserrat;-inkscape-font-specification:'Montserrat Bold';text-align:start;text-decoration-color:#000000;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#bf0808;fill-opacity:1;stroke:none;stroke-width:0.0649999;-inkscape-stroke:none"
+       x="-27.978443"
+       y="-184.28264"
+       id="text33"><tspan
+         sodipodi:role="line"
+         id="tspan33"
+         style="fill:#bf0808;fill-opacity:1;stroke-width:0.065"
+         x="-27.978443"
+         y="-184.28264">Imagen del libro o del autor</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-weight:bold;font-size:8.46667px;line-height:1.7;font-family:Montserrat;-inkscape-font-specification:'Montserrat Bold';text-align:start;text-decoration-color:#000000;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#2a2a35;fill-opacity:1;stroke:none;stroke-width:0.0649999;-inkscape-stroke:none"
+       x="74.670326"
+       y="-166.58458"
+       id="text34"><tspan
+         sodipodi:role="line"
+         id="tspan34"
+         style="font-size:8.46667px;fill:#2a2a35;fill-opacity:1;stroke-width:0.065"
+         x="74.670326"
+         y="-166.58458">Title</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-weight:bold;font-size:8.46667px;line-height:1.7;font-family:Montserrat;-inkscape-font-specification:'Montserrat Bold';text-align:start;text-decoration-color:#000000;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#2a2a35;fill-opacity:1;stroke:none;stroke-width:0.0649999;-inkscape-stroke:none"
+       x="175.5493"
+       y="-166.58458"
+       id="text35"><tspan
+         sodipodi:role="line"
+         id="tspan35"
+         style="font-size:8.46667px;fill:#2a2a35;fill-opacity:1;stroke-width:0.065"
+         x="175.5493"
+         y="-166.58458">ISBN</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-weight:bold;font-size:8.46667px;line-height:1.7;font-family:Montserrat;-inkscape-font-specification:'Montserrat Bold';text-align:start;text-decoration-color:#000000;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#2a2a35;fill-opacity:1;stroke:none;stroke-width:0.0649999;-inkscape-stroke:none"
+       x="74.670326"
+       y="-152.57892"
+       id="text36"><tspan
+         sodipodi:role="line"
+         id="tspan36"
+         style="font-size:8.46667px;fill:#2a2a35;fill-opacity:1;stroke-width:0.065"
+         x="74.670326"
+         y="-152.57892">Resumen en text expander</tspan></text>
+    <rect
+       style="fill:#dadbe5;fill-opacity:1;stroke:none;stroke-width:0.0649999;-inkscape-stroke:none"
+       id="rect36"
+       width="230.5173"
+       height="37.165936"
+       x="15.824301"
+       y="-134.72804"
+       ry="13.937225" />
+    <path
+       sodipodi:type="star"
+       style="fill:#f5f6fa;fill-opacity:1;stroke:none;stroke-width:0.0649999;-inkscape-stroke:none"
+       id="path36"
+       inkscape:flatsided="false"
+       sodipodi:sides="5"
+       sodipodi:cx="222.4492"
+       sodipodi:cy="-162.16005"
+       sodipodi:r1="8.8490334"
+       sodipodi:r2="4.4245162"
+       sodipodi:arg1="0.92729522"
+       sodipodi:arg2="1.5556137"
+       inkscape:rounded="0"
+       inkscape:randomized="0"
+       d="m 227.75862,-155.08082 -5.24224,-2.65522 -5.15922,2.81315 0.90532,-5.80618 -4.26975,-4.0374 5.80176,-0.93319 2.52037,-5.3084 2.68036,5.22943 5.82743,0.75662 -4.14521,4.16517 z"
+       inkscape:transform-center-x="0.041515188"
+       inkscape:transform-center-y="-0.80542677"
+       transform="translate(5.7518714,45.572519)" />
+    <path
+       sodipodi:type="star"
+       style="fill:#d29b6f;fill-opacity:1;stroke:none;stroke-width:0.0649999;-inkscape-stroke:none"
+       id="path37"
+       inkscape:flatsided="false"
+       sodipodi:sides="5"
+       sodipodi:cx="222.4492"
+       sodipodi:cy="-162.16005"
+       sodipodi:r1="8.8490334"
+       sodipodi:r2="4.4245162"
+       sodipodi:arg1="0.92729522"
+       sodipodi:arg2="1.5556137"
+       inkscape:rounded="0"
+       inkscape:randomized="0"
+       d="m 227.75862,-155.08082 -5.24224,-2.65522 -5.15922,2.81315 0.90532,-5.80618 -4.26975,-4.0374 5.80176,-0.93319 2.52037,-5.3084 2.68036,5.22943 5.82743,0.75662 -4.14521,4.16517 z"
+       inkscape:transform-center-x="0.041515188"
+       inkscape:transform-center-y="-0.80542677"
+       transform="translate(26.104647,46.014971)" />
+    <rect
+       style="fill:#d29b6f;fill-opacity:1;stroke:none;stroke-width:0.0649999;-inkscape-stroke:none"
+       id="rect37"
+       width="31.856518"
+       height="22.122581"
+       x="26.443098"
+       y="-127.64881"
+       ry="5.7518749"
+       rx="0" />
+    <text
+       xml:space="preserve"
+       style="font-weight:bold;font-size:8.46667px;line-height:1.7;font-family:Montserrat;-inkscape-font-specification:'Montserrat Bold';text-align:start;text-decoration-color:#000000;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#2a2a35;fill-opacity:1;stroke:none;stroke-width:0.0649999;-inkscape-stroke:none"
+       x="74.670326"
+       y="-121.89697"
+       id="text37"><tspan
+         sodipodi:role="line"
+         id="tspan37"
+         style="font-size:8.46667px;fill:#2a2a35;fill-opacity:1;stroke-width:0.065"
+         x="74.670326"
+         y="-121.89697">Nombre</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-weight:bold;font-size:8.46667px;line-height:1.7;font-family:Montserrat;-inkscape-font-specification:'Montserrat Bold';text-align:start;text-decoration-color:#000000;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#2a2a35;fill-opacity:1;stroke:none;stroke-width:0.0649999;-inkscape-stroke:none"
+       x="175.5493"
+       y="-121.89697"
+       id="text38"><tspan
+         sodipodi:role="line"
+         id="tspan38"
+         style="font-size:8.46667px;fill:#2a2a35;fill-opacity:1;stroke-width:0.065"
+         x="175.5493"
+         y="-121.89697">ISBN</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-weight:bold;font-size:8.46667px;line-height:1.7;font-family:Montserrat;-inkscape-font-specification:'Montserrat Bold';text-align:start;text-decoration-color:#000000;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#2a2a35;fill-opacity:1;stroke:none;stroke-width:0.0649999;-inkscape-stroke:none"
+       x="74.670326"
+       y="-111.27813"
+       id="text39"><tspan
+         sodipodi:role="line"
+         id="tspan39"
+         style="font-size:8.46667px;fill:#2a2a35;fill-opacity:1;stroke-width:0.065"
+         x="74.670326"
+         y="-111.27813">Detalles</tspan></text>
+    <circle
+       style="fill:#3a1a00;fill-opacity:1;stroke:none;stroke-width:0.0649999;-inkscape-stroke:none"
+       id="path39"
+       cx="131.52538"
+       cy="-81.855087"
+       r="4.2032905" />
+    <circle
+       style="fill:#3a1a00;fill-opacity:1;stroke:none;stroke-width:0.0649999;-inkscape-stroke:none"
+       id="circle39"
+       cx="131.52538"
+       cy="-67.696632"
+       r="4.2032905" />
+    <circle
+       style="fill:#3a1a00;fill-opacity:1;stroke:none;stroke-width:0.0649999;-inkscape-stroke:none"
+       id="circle40"
+       cx="131.52538"
+       cy="-52.653278"
+       r="4.2032905" />
+    <circle
+       style="fill:#3a1a00;fill-opacity:1;stroke:none;stroke-width:0.0649999;-inkscape-stroke:none"
+       id="circle41"
+       cx="131.52538"
+       cy="-38.937279"
+       r="4.2032905" />
+    <rect
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.0649999;-inkscape-stroke:none"
+       id="rect41"
+       width="225.20787"
+       height="62.385677"
+       x="22.46104"
+       y="-26.769836"
+       ry="5.7518749" />
+    <text
+       xml:space="preserve"
+       style="font-weight:bold;font-size:8.46667px;line-height:1.7;font-family:Montserrat;-inkscape-font-specification:'Montserrat Bold';text-align:start;text-decoration-color:#000000;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#2a2a35;fill-opacity:1;stroke:none;stroke-width:0.0649999;-inkscape-stroke:none"
+       x="57.414715"
+       y="-0.22276771"
+       id="text41"><tspan
+         sodipodi:role="line"
+         id="tspan41"
+         style="font-size:8.46667px;fill:#2a2a35;fill-opacity:1;stroke-width:0.065"
+         x="57.414715"
+         y="-0.22276771">Mesage que anime de forma easy</tspan><tspan
+         sodipodi:role="line"
+         style="font-size:8.46667px;fill:#2a2a35;fill-opacity:1;stroke-width:0.065"
+         x="57.414715"
+         y="14.170571"
+         id="tspan42">al usuario a buscar contenido</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-weight:bold;font-size:8.46667px;line-height:1.7;font-family:Montserrat;-inkscape-font-specification:'Montserrat Bold';text-align:start;text-decoration-color:#000000;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#bf0808;fill-opacity:1;stroke:none;stroke-width:0.0649999;-inkscape-stroke:none"
+       x="222.89163"
+       y="-1.9925563"
+       id="text43"><tspan
+         sodipodi:role="line"
+         id="tspan43"
+         style="fill:#bf0808;fill-opacity:1;stroke-width:0.065"
+         x="222.89163"
+         y="-1.9925563">Cuando no hay resultados</tspan></text>
+    <rect
+       style="fill:#dadbe5;fill-opacity:1;stroke:none;stroke-width:0.0649999;-inkscape-stroke:none"
+       id="rect43"
+       width="158.68787"
+       height="43.74387"
+       x="-206.39586"
+       y="-347.50455"
+       ry="5.7518749" />
+    <rect
+       style="fill:#d66f6f;fill-opacity:1;stroke:none;stroke-width:0.0649999;-inkscape-stroke:none"
+       id="rect44"
+       width="158.68785"
+       height="9.7725458"
+       x="-206.39586"
+       y="-347.50455"
+       ry="4.8862729" />
+    <text
+       xml:space="preserve"
+       style="font-weight:bold;font-size:8.46667px;line-height:1.7;font-family:Montserrat;-inkscape-font-specification:'Montserrat Bold';text-align:start;text-decoration-color:#000000;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#d66f6f;fill-opacity:1;stroke:none;stroke-width:0.0649999;-inkscape-stroke:none"
+       x="-198.95006"
+       y="-318.65222"
+       id="text44"><tspan
+         sodipodi:role="line"
+         id="tspan44"
+         style="stroke-width:0.065"
+         x="-198.95006"
+         y="-318.65222">Error:</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-weight:bold;font-size:8.46667px;line-height:1.7;font-family:Montserrat;-inkscape-font-specification:'Montserrat Bold';text-align:start;text-decoration-color:#000000;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#2a2a35;fill-opacity:1;stroke:none;stroke-width:0.0649999;-inkscape-stroke:none"
+       x="-167.77092"
+       y="-318.18683"
+       id="text46"><tspan
+         sodipodi:role="line"
+         id="tspan46"
+         style="stroke-width:0.065"
+         x="-167.77092"
+         y="-318.18683">Mensaje error</tspan></text>
+    <rect
+       style="fill:#f5f6fa;fill-opacity:1;stroke:none;stroke-width:0.0649999;-inkscape-stroke:none"
+       id="rect46"
+       width="508"
+       height="285.75"
+       x="490.81992"
+       y="-194.28981" />
+    <rect
+       style="fill:none;fill-opacity:1;stroke-width:0.765;stroke:#000000;stroke-dasharray:none"
+       id="rect29"
+       width="254.00003"
+       height="285.75"
+       x="490.81992"
+       y="-194.28979" />
+    <text
+       xml:space="preserve"
+       style="font-weight:bold;font-size:8.46667px;line-height:1.7;font-family:Montserrat;-inkscape-font-specification:'Montserrat Bold';text-align:start;text-decoration-color:#000000;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#bf0808;fill-opacity:1;stroke:none;stroke-width:0.0649999;-inkscape-stroke:none"
+       x="191.88208"
+       y="-80.550087"
+       id="text47"><tspan
+         sodipodi:role="line"
+         id="tspan47"
+         style="fill:#bf0808;fill-opacity:1;stroke-width:0.065"
+         x="191.88208"
+         y="-80.550087">Sobra, se levanta y cambia de color on hover</tspan></text>
+    <rect
+       style="fill:#4f52b3;fill-opacity:1;stroke:none;stroke-width:0.0649999;-inkscape-stroke:none"
+       id="rect47"
+       width="220.05894"
+       height="23.187126"
+       x="-229.90559"
+       y="-182.96881"
+       ry="4.8862729" />
+    <text
+       xml:space="preserve"
+       style="font-weight:bold;font-size:8.46667px;line-height:1.7;font-family:Montserrat;-inkscape-font-specification:'Montserrat Bold';text-align:start;text-decoration-color:#000000;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#f5f6fa;fill-opacity:1;stroke:none;stroke-width:0.0649999;-inkscape-stroke:none"
+       x="-144.59448"
+       y="-168.53156"
+       id="text48"><tspan
+         sodipodi:role="line"
+         id="tspan48"
+         style="stroke-width:0.065"
+         x="-144.59448"
+         y="-168.53156">Fav libros</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-weight:bold;font-size:8.46667px;line-height:1.7;font-family:Montserrat;-inkscape-font-specification:'Montserrat Bold';text-align:start;text-decoration-color:#000000;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#f5f6fa;fill-opacity:1;stroke:none;stroke-width:0.0649999;-inkscape-stroke:none"
+       x="-71.53315"
+       y="-168.53156"
+       id="text49"><tspan
+         sodipodi:role="line"
+         id="tspan49"
+         style="stroke-width:0.065"
+         x="-71.53315"
+         y="-168.53156">Fav autores</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-weight:bold;font-size:8.46667px;line-height:1.7;font-family:Montserrat;-inkscape-font-specification:'Montserrat Bold';text-align:start;text-decoration-color:#000000;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#f5f6fa;fill-opacity:1;stroke:none;stroke-width:0.0649999;-inkscape-stroke:none"
+       x="-216.78081"
+       y="-168.53156"
+       id="text50"><tspan
+         sodipodi:role="line"
+         id="tspan50"
+         style="stroke-width:0.065"
+         x="-216.78081"
+         y="-168.53156">Home</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-weight:bold;font-size:8.46667px;line-height:1.7;font-family:Montserrat;-inkscape-font-specification:'Montserrat Bold';text-align:start;text-decoration-color:#000000;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#bf0808;fill-opacity:1;stroke:none;stroke-width:0.0649999;-inkscape-stroke:none"
+       x="-213.30843"
+       y="31.28779"
+       id="text51"><tspan
+         sodipodi:role="line"
+         id="tspan51"
+         style="fill:#bf0808;fill-opacity:1;stroke-width:0.065"
+         x="-213.30843"
+         y="31.28779">Imagen de fondo con este color como layer?</tspan></text>
+    <rect
+       style="fill:#000000;fill-opacity:0;stroke:none;stroke-width:0.0649999;-inkscape-stroke:none"
+       id="rect51"
+       width="254.00002"
+       height="285.75"
+       x="490.81992"
+       y="-194.28979"
+       ry="4.8862729" />
+    <rect
+       style="fill:#6f73d2;fill-opacity:1;stroke-width:0.0649999;-inkscape-stroke:none"
+       id="rect1"
+       width="81.386673"
+       height="26.144941"
+       x="-598.51312"
+       y="-273.20401"
+       ry="8.4338522" />
+    <text
+       xml:space="preserve"
+       style="font-weight:bold;font-size:8.46667px;line-height:1.7;font-family:Montserrat;-inkscape-font-specification:'Montserrat Bold';text-align:start;text-decoration-color:#000000;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#f5f6fa;fill-opacity:1;stroke-width:0.0649999;-inkscape-stroke:none"
+       x="-585.01898"
+       y="-258.02304"
+       id="text1"><tspan
+         sodipodi:role="line"
+         style="stroke-width:0.065"
+         x="-585.01898"
+         y="-258.02304"
+         id="tspan2">Primary btn</tspan></text>
+    <rect
+       style="fill:#4f52b3;fill-opacity:1;stroke-width:0.0649999;-inkscape-stroke:none"
+       id="rect3"
+       width="81.386673"
+       height="26.144941"
+       x="-598.51312"
+       y="-240.73367"
+       ry="8.4338522" />
+    <text
+       xml:space="preserve"
+       style="font-weight:bold;font-size:8.46667px;line-height:1.7;font-family:Montserrat;-inkscape-font-specification:'Montserrat Bold';text-align:start;text-decoration-color:#000000;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#f5f6fa;fill-opacity:1;stroke-width:0.0649999;-inkscape-stroke:none"
+       x="-585.44067"
+       y="-231.8781"
+       id="text3"><tspan
+         sodipodi:role="line"
+         style="stroke-width:0.065"
+         x="-585.44067"
+         y="-231.8781"
+         id="tspan3">Primary btn</tspan><tspan
+         sodipodi:role="line"
+         style="stroke-width:0.065"
+         x="-585.44067"
+         y="-217.48476"
+         id="tspan8">pressed</tspan></text>
+    <rect
+       style="fill:#8c90e5;fill-opacity:1;stroke-width:0.0649999;-inkscape-stroke:none"
+       id="rect10"
+       width="81.386673"
+       height="26.144941"
+       x="-598.51312"
+       y="-308.2045"
+       ry="8.4338522" />
+    <text
+       xml:space="preserve"
+       style="font-weight:bold;font-size:8.46667px;line-height:1.7;font-family:Montserrat;-inkscape-font-specification:'Montserrat Bold';text-align:start;text-decoration-color:#000000;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#f5f6fa;fill-opacity:1;stroke-width:0.0649999;-inkscape-stroke:none"
+       x="-585.44067"
+       y="-299.34891"
+       id="text15"><tspan
+         sodipodi:role="line"
+         style="stroke-width:0.065"
+         x="-585.44067"
+         y="-299.34891"
+         id="tspan14">Primary btn</tspan><tspan
+         sodipodi:role="line"
+         style="stroke-width:0.065"
+         x="-585.44067"
+         y="-284.95557"
+         id="tspan15">hover</tspan></text>
+    <rect
+       style="fill:#4f52b3;fill-opacity:1;stroke:none;stroke-width:0.0649999;-inkscape-stroke:none"
+       id="rect15"
+       width="220.05894"
+       height="23.187126"
+       x="515.89355"
+       y="-182.96881"
+       ry="4.8862729" />
+    <text
+       xml:space="preserve"
+       style="font-weight:bold;font-size:8.46667px;line-height:1.7;font-family:Montserrat;-inkscape-font-specification:'Montserrat Bold';text-align:start;text-decoration-color:#000000;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#f5f6fa;fill-opacity:1;stroke:none;stroke-width:0.0649999;-inkscape-stroke:none"
+       x="601.20465"
+       y="-168.53156"
+       id="text16"><tspan
+         sodipodi:role="line"
+         id="tspan16"
+         style="stroke-width:0.065"
+         x="601.20465"
+         y="-168.53156">Fav libros</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-weight:bold;font-size:8.46667px;line-height:1.7;font-family:Montserrat;-inkscape-font-specification:'Montserrat Bold';text-align:start;text-decoration-color:#000000;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#f5f6fa;fill-opacity:1;stroke:none;stroke-width:0.0649999;-inkscape-stroke:none"
+       x="674.26599"
+       y="-168.53156"
+       id="text17"><tspan
+         sodipodi:role="line"
+         id="tspan17"
+         style="stroke-width:0.065"
+         x="674.26599"
+         y="-168.53156">Fav autores</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-weight:bold;font-size:8.46667px;line-height:1.7;font-family:Montserrat;-inkscape-font-specification:'Montserrat Bold';text-align:start;text-decoration-color:#000000;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#f5f6fa;fill-opacity:1;stroke:none;stroke-width:0.0649999;-inkscape-stroke:none"
+       x="529.01831"
+       y="-168.53156"
+       id="text18"><tspan
+         sodipodi:role="line"
+         id="tspan18"
+         style="stroke-width:0.065"
+         x="529.01831"
+         y="-168.53156">Home</tspan></text>
+    <path
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.765;stroke-dasharray:none"
+       d="m 490.8199,-194.2898 254,285.749993"
+       id="path29" />
+    <path
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.765;stroke-dasharray:none"
+       d="M 490.8199,91.460193 744.81993,-194.2898"
+       id="path30" />
+    <text
+       xml:space="preserve"
+       style="font-weight:bold;font-size:8.46667px;line-height:1.7;font-family:Montserrat;-inkscape-font-specification:'Montserrat Bold';text-align:start;text-decoration-color:#000000;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#bf0808;fill-opacity:1;stroke:none;stroke-width:0.0649999;-inkscape-stroke:none"
+       x="521.89166"
+       y="-57.766563"
+       id="text40"><tspan
+         sodipodi:role="line"
+         id="tspan40"
+         style="fill:#bf0808;fill-opacity:1;stroke-width:0.065"
+         x="521.89166"
+         y="-57.766563">AUTHOR  IMAGE</tspan></text>
+    <rect
+       style="fill:#dadbe5;fill-opacity:1;stroke:none;stroke-width:0.705396;stroke-dasharray:none"
+       id="rect40"
+       width="234.21004"
+       height="263.4863"
+       x="754.31915"
+       y="-183.15794" />
+    <text
+       xml:space="preserve"
+       style="font-weight:bold;font-size:8.46667px;line-height:1.7;font-family:Montserrat;-inkscape-font-specification:'Montserrat Bold';text-align:start;text-decoration-color:#000000;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#2a2a35;fill-opacity:1;stroke:none;stroke-width:0.765;stroke-dasharray:none"
+       x="785.95874"
+       y="-162.78142"
+       id="text45"><tspan
+         sodipodi:role="line"
+         id="tspan45"
+         style="stroke-width:0.765"
+         x="785.95874"
+         y="-162.78142">NAME</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-weight:bold;font-size:8.46667px;line-height:1.7;font-family:Montserrat;-inkscape-font-specification:'Montserrat Bold';text-align:start;text-decoration-color:#000000;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#2a2a35;fill-opacity:1;stroke:none;stroke-width:0.765;stroke-dasharray:none"
+       x="785.95874"
+       y="-143.78307"
+       id="text52"><tspan
+         sodipodi:role="line"
+         id="tspan52"
+         style="stroke-width:0.765"
+         x="785.95874"
+         y="-143.78307">BIO</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-weight:bold;font-size:8.46667px;line-height:1.7;font-family:Montserrat;-inkscape-font-specification:'Montserrat Bold';text-align:start;text-decoration-color:#000000;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#2a2a35;fill-opacity:1;stroke:none;stroke-width:0.765;stroke-dasharray:none"
+       x="785.95874"
+       y="-73.726624"
+       id="text53"><tspan
+         sodipodi:role="line"
+         id="tspan53"
+         style="stroke-width:0.765"
+         x="785.95874"
+         y="-73.726624">Todos sus libros</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-weight:bold;font-size:8.46667px;line-height:1.7;font-family:Montserrat;-inkscape-font-specification:'Montserrat Bold';text-align:start;text-decoration-color:#000000;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#2a2a35;fill-opacity:1;stroke:none;stroke-width:0.765;stroke-dasharray:none"
+       x="785.95874"
+       y="-26.82443"
+       id="text54"><tspan
+         sodipodi:role="line"
+         id="tspan54"
+         style="stroke-width:0.765"
+         x="785.95874"
+         y="-26.82443">Sus libros leídos por ti</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-weight:bold;font-size:8.46667px;line-height:1.7;font-family:Montserrat;-inkscape-font-specification:'Montserrat Bold';text-align:start;text-decoration-color:#000000;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#2a2a35;fill-opacity:1;stroke:none;stroke-width:0.765;stroke-dasharray:none"
+       x="785.95874"
+       y="14.734475"
+       id="text55"><tspan
+         sodipodi:role="line"
+         id="tspan55"
+         style="stroke-width:0.765"
+         x="785.95874"
+         y="14.734475">Sus libros favs por ti</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-weight:bold;font-size:19.7556px;line-height:1.7;font-family:Montserrat;-inkscape-font-specification:'Montserrat Bold';text-align:start;text-decoration-color:#000000;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#2a2a35;fill-opacity:1;stroke:none;stroke-width:0.765;stroke-dasharray:none"
+       x="-28.813375"
+       y="-221.7627"
+       id="text56"><tspan
+         sodipodi:role="line"
+         id="tspan56"
+         style="font-size:19.7556px;stroke-width:0.765"
+         x="-28.813375"
+         y="-221.7627">MAIN</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-weight:bold;font-size:19.7556px;line-height:1.7;font-family:Montserrat;-inkscape-font-specification:'Montserrat Bold';text-align:start;text-decoration-color:#000000;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#2a2a35;fill-opacity:1;stroke:none;stroke-width:0.765;stroke-dasharray:none"
+       x="712.26245"
+       y="-221.7627"
+       id="text57"><tspan
+         sodipodi:role="line"
+         id="tspan57"
+         style="font-size:19.7556px;stroke-width:0.765"
+         x="712.26245"
+         y="-221.7627">AUTOR</tspan></text>
+  </g>
+</svg>
