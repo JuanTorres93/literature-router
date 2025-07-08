@@ -1,8 +1,10 @@
+![Static Badge](https://img.shields.io/badge/Status-Work%20in%20progress-purple)
+
 # 🌕 Project's purpose
 
 This is a dummy project whose purpose is to practice these concepts:
 
-- Use the useReducer hook to manage state.
+- useReducer hook to manage state.
 - Use React Router to manage routes:
   - Regular routes.
   - Nested routes.
