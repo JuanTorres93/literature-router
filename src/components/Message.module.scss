@@ -1,0 +1,33 @@
+@use "../variables.scss" as *;
+
+.message {
+  position: relative;
+  background-color: $color-surface;
+  padding: 2rem 3rem;
+  padding-top: 3rem; /* 1 rem more because ::after element spans 1rem of height */
+  overflow: hidden;
+  border-radius: 0.5rem;
+
+  &::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: $color-primary;
+    height: 1rem;
+    width: 100%;
+  }
+
+  & span {
+    text-transform: capitalize;
+    font-weight: 600;
+  }
+
+  &.error::after {
+    background-color: $color-error;
+  }
+}
+
+.error span {
+  color: $color-error;
+}

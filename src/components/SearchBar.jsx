@@ -1,6 +1,6 @@
 import { useEffect, useRef } from "react";
 
-import styles from "./SearchBar.module.css";
+import styles from "./SearchBar.module.scss";
 import { useKeydown } from "../hooks/useKeydown";
 
 function SearchBar({ searchTerm, onUpdateSearchTerm }) {

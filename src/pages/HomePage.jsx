@@ -1,4 +1,4 @@
-import styles from "./HomePage.module.css";
+import styles from "./HomePage.module.scss";
 import NavBar from "../components/NavBar";
 import SearchBar from "../components/SearchBar";
 import RandomQuestion from "../components/RandomQuestion";

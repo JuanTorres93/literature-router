@@ -1,0 +1,43 @@
+@use "../variables.scss" as *;
+
+.navbar {
+  background-color: $color-primary-dark;
+  font-weight: 500;
+  text-transform: uppercase;
+  border-radius: 1rem;
+  opacity: 0.95;
+
+  position: fixed;
+  top: 1rem;
+  left: 1rem;
+  z-index: 9999;
+
+  overflow: hidden;
+
+  & ul {
+    display: flex;
+    list-style: none;
+  }
+
+  & li {
+    padding: 1rem 2rem;
+  }
+
+  & a,
+  & a:link,
+  & a:visited {
+    color: $color-bg;
+    text-decoration: none;
+    transition: all 0.2s ease-in-out;
+    cursor: pointer;
+    padding: 2rem 2rem;
+  }
+
+  & a:hover {
+    color: $color-secondary-light;
+  }
+
+  & a:global(.active) {
+    background-color: $color-primary;
+  }
+}

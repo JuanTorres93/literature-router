@@ -1,21 +1,4 @@
-/* Color palette */
-:root {
-  --color-primary: #6f73d2;
-  --color-primary-light: #8c90e5;
-  --color-primary-dark: #4f52b3;
-
-  --color-secondary: #d29b6f;
-  --color-secondary-light: #f1d1b3;
-
-  --color-bg: #f5f6fa;
-  --color-surface: #dadbe5;
-  --color-border: #b1b3c7;
-  --color-text: #2a2a35;
-
-  --color-success: #5cc18c;
-  --color-warning: #e8b85d;
-  --color-error: #d66f6f;
-}
+@use "./variables.scss" as *;
 
 /* Basix reset */
 *,
@@ -39,7 +22,7 @@ html {
   font-weight: 300;
   font-style: normal;
 
-  color: var(--color-text);
+  color: $color-text;
 }
 
 body {
@@ -52,7 +35,7 @@ input {
   font-size: inherit;
   font-weight: inherit;
   font-style: inherit;
-  color: var(--color-text);
+  color: $color-text;
   border: none;
   outline: none;
   padding: 1rem 2rem;

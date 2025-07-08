@@ -1,0 +1,16 @@
+@use "../variables.scss" as *;
+
+.heart {
+  width: 4rem;
+  height: 4rem;
+
+  & svg {
+    transition: all 0.25s;
+    fill: $color-bg;
+  }
+
+  & svg:hover {
+    fill: $color-secondary;
+    filter: drop-shadow(0 0 1rem rgba($color-secondary-light, 0.8));
+  }
+}

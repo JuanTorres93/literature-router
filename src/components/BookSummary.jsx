@@ -1,7 +1,7 @@
 import { useEffect } from "react";
 
 import { API_BASE_URL } from "../config";
-import styles from "./BookSummary.module.css";
+import styles from "./BookSummary.module.scss";
 import Heart from "./Heart";
 
 const exampleBookDelete = {

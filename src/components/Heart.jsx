@@ -1,4 +1,4 @@
-import styles from "./Heart.module.css";
+import styles from "./Heart.module.scss";
 
 function Heart() {
   return (

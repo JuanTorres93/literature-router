@@ -1,0 +1,66 @@
+@use "../variables.scss" as *;
+
+.bookSummary {
+  display: grid;
+
+  grid-template-columns:
+    [S-img]
+    minmax(min-content, 10rem)
+    [E-img S-content]
+    minmax(min-content, 1fr)
+    [E-content S-fav]
+    min-content
+    [E-fav];
+  grid-template-rows: [S-title] min-content [E-title S-details] min-content [E-details];
+  gap: 2rem;
+  grid-column-gap: 4rem;
+  align-items: center;
+
+  background-color: $color-surface;
+  padding: 3rem;
+  border-radius: 2rem;
+
+  transition: all 0.2s ease-in-out;
+
+  &:hover {
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.1);
+    background-color: $color-border;
+    transform: translateY(-0.5rem);
+  }
+
+  & > img {
+    grid-column: S-img / E-img;
+    grid-row: S-title / E-details;
+  }
+
+  & > p {
+    grid-column: S-content / E-content;
+    grid-row: S-details / E-details;
+  }
+
+  & > .title {
+    grid-column: S-content / E-content;
+    grid-row: S-title / E-title;
+    justify-self: start;
+  }
+
+  & > .author {
+    grid-column: S-content / E-content;
+    grid-row: S-title / E-title;
+    justify-self: end;
+  }
+
+  & > .favIcon {
+    grid-column: S-fav / E-fav;
+    grid-row: S-title / E-details;
+  }
+  .title {
+    font-weight: 600;
+  }
+  .author {
+    font-weight: 500;
+  }
+  .favIcon {
+    cursor: pointer;
+  }
+}

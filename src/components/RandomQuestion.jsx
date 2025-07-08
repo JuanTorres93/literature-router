@@ -1,4 +1,4 @@
-import styles from "./RandomQuestion.module.css";
+import styles from "./RandomQuestion.module.scss";
 
 function RandomQuestion() {
   // TODO Generate random question on mount

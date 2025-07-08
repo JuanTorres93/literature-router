@@ -1,11 +1,13 @@
+@use "../variables.scss" as *;
+
 .homePage {
   display: flex;
   height: 100vh;
-}
 
-.homePage section {
-  flex-grow: 1;
-  max-width: 50vw;
+  & section {
+    flex-grow: 1;
+    max-width: 50vw;
+  }
 }
 
 .searchSection {
@@ -14,6 +16,10 @@
   align-items: center;
   justify-content: center;
   gap: 3rem;
-  background-color: var(--color-primary-light);
+  background-color: $color-primary-light;
   padding: 8rem;
+
+  & span {
+    text-align: center;
+  }
 }
