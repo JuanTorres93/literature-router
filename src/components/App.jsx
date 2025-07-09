@@ -2,7 +2,8 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import DevelopmentPage from "../pages/DevelopmentPage";
 import HomePage from "../pages/HomePage";
 import FavPage from "../pages/FavPage";
-import NavBar from "./NavBar";
+import BookPage from "../pages/BookPage";
+import AuthorPage from "../pages/AuthorPage";
 import Message from "./Message";
 
 function App() {
@@ -10,22 +11,14 @@ function App() {
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<HomePage />} />
-        <Route path="fav">
-          <Route path="books" element={<FavPage />} />
-          <Route
-            path="authors"
-            // TODO create actual page
-            element={
-              <>
-                <NavBar />
-                <p>Fav authors!</p>
-              </>
-            }
-          />
-        </Route>
+        {/* TODO handle invalid parameters in routes */}
+        <Route path="fav/:favtype" element={<FavPage />} />
+        <Route path="book/:bookId" element={<BookPage />} />
+        <Route path="author/:authorId" element={<AuthorPage />} />
+
         {/* TODO IMPORTANT comment when finshed or add conditional render with NODE_ENV */}
         <Route path="development" element={<DevelopmentPage />} />
-
+        {/* Not found route */}
         <Route
           path="*"
           // TODO create actual page

@@ -1036,13 +1036,121 @@
     <text
        xml:space="preserve"
        style="font-weight:bold;font-size:19.7556px;line-height:1.7;font-family:Montserrat;-inkscape-font-specification:'Montserrat Bold';text-align:start;text-decoration-color:#000000;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#2a2a35;fill-opacity:1;stroke:none;stroke-width:0.765;stroke-dasharray:none"
-       x="135.51622"
-       y="-453.63879"
+       x="265.56848"
+       y="-514.63226"
        id="text27"><tspan
          sodipodi:role="line"
          id="tspan27"
          style="font-size:19.7556px;stroke-width:0.765"
-         x="135.51622"
-         y="-453.63879">FavCard</tspan></text>
+         x="265.56848"
+         y="-514.63226">FavCard</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-weight:bold;font-size:8.46667px;line-height:1.7;font-family:Montserrat;-inkscape-font-specification:'Montserrat Bold';text-align:start;text-decoration-color:#000000;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#2a2a35;fill-opacity:1;stroke:none;stroke-width:0.0649999;-inkscape-stroke:none"
+       x="120.56198"
+       y="-318.69092"
+       id="text42"><tspan
+         sodipodi:role="line"
+         id="tspan41"
+         style="stroke-width:0.065"
+         x="120.56198"
+         y="-318.69092">Excerpts</tspan></text>
+    <rect
+       style="fill:#dadbe5;fill-opacity:1;stroke-width:0.0649999;-inkscape-stroke:none"
+       id="rect42"
+       width="145.65071"
+       height="164.14606"
+       x="353.22229"
+       y="-425.94699"
+       ry="6.4733653" />
+    <rect
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.365;stroke-dasharray:none;stroke-opacity:1"
+       id="rect45"
+       width="131.31683"
+       height="55.023605"
+       x="361.5452"
+       y="-418.54886"
+       ry="0" />
+    <path
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.365001;stroke-dasharray:none;stroke-opacity:1"
+       d="m 361.54516,-418.54886 131.31686,55.0236"
+       id="path45" />
+    <path
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.365001;stroke-dasharray:none;stroke-opacity:1"
+       d="m 492.86202,-418.54886 -131.31686,55.0236"
+       id="path46" />
+    <text
+       xml:space="preserve"
+       style="font-weight:bold;font-size:8.46667px;line-height:1.7;font-family:Montserrat;-inkscape-font-specification:'Montserrat Bold';text-align:start;text-decoration-color:#000000;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#2a2a35;fill-opacity:1;stroke:none;stroke-width:0.0649999;-inkscape-stroke:none"
+       x="364.53598"
+       y="-343.89484"
+       id="text58"><tspan
+         sodipodi:role="line"
+         id="tspan58"
+         style="stroke-width:0.065"
+         x="364.53598"
+         y="-343.89484">Nombre</tspan></text>
+    <path
+       sodipodi:type="star"
+       style="fill:#d29b6f;fill-opacity:1;stroke:none;stroke-width:0.0649999;-inkscape-stroke:none"
+       id="path58"
+       inkscape:flatsided="false"
+       sodipodi:sides="5"
+       sodipodi:cx="222.4492"
+       sodipodi:cy="-162.16005"
+       sodipodi:r1="8.8490334"
+       sodipodi:r2="4.4245162"
+       sodipodi:arg1="0.92729522"
+       sodipodi:arg2="1.5556137"
+       inkscape:rounded="0"
+       inkscape:randomized="0"
+       d="m 227.75862,-155.08082 -5.24224,-2.65522 -5.15922,2.81315 0.90532,-5.80618 -4.26975,-4.0374 5.80176,-0.93319 2.52037,-5.3084 2.68036,5.22943 5.82743,0.75662 -4.14521,4.16517 z"
+       inkscape:transform-center-x="0.041515188"
+       inkscape:transform-center-y="-0.80542677"
+       transform="translate(258.48484,-185.18169)" />
+    <text
+       xml:space="preserve"
+       style="font-weight:bold;font-size:8.46667px;line-height:1.7;font-family:Montserrat;-inkscape-font-specification:'Montserrat Bold';text-align:start;text-decoration-color:#000000;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#2a2a35;fill-opacity:1;stroke:none;stroke-width:0.0649999;-inkscape-stroke:none"
+       x="364.53598"
+       y="-318.69092"
+       id="text59"><tspan
+         sodipodi:role="line"
+         id="tspan59"
+         style="stroke-width:0.065"
+         x="364.53598"
+         y="-318.69092">Alternate names</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-weight:bold;font-size:8.46667px;line-height:1.7;font-family:Montserrat;-inkscape-font-specification:'Montserrat Bold';text-align:start;text-decoration-color:#000000;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#2a2a35;fill-opacity:1;stroke:none;stroke-width:0.0649999;-inkscape-stroke:none"
+       x="364.53598"
+       y="-296.00739"
+       id="text60"><tspan
+         sodipodi:role="line"
+         id="tspan60"
+         style="stroke-width:0.065"
+         x="364.53598"
+         y="-296.00739">Links</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-weight:bold;font-size:19.7556px;line-height:1.7;font-family:Montserrat;-inkscape-font-specification:'Montserrat Bold';text-align:start;text-decoration-color:#000000;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#2a2a35;fill-opacity:1;stroke:none;stroke-width:0.765;stroke-dasharray:none"
+       x="128.96321"
+       y="-455.65509"
+       id="text61"><tspan
+         sodipodi:role="line"
+         id="tspan61"
+         style="font-size:19.7556px;stroke-width:0.765"
+         x="128.96321"
+         y="-455.65509">Book</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-weight:bold;font-size:19.7556px;line-height:1.7;font-family:Montserrat;-inkscape-font-specification:'Montserrat Bold';text-align:start;text-decoration-color:#000000;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#2a2a35;fill-opacity:1;stroke:none;stroke-width:0.765;stroke-dasharray:none"
+       x="385.0351"
+       y="-455.65509"
+       id="text62"><tspan
+         sodipodi:role="line"
+         id="tspan62"
+         style="font-size:19.7556px;stroke-width:0.765"
+         x="385.0351"
+         y="-455.65509">Author</tspan></text>
   </g>
 </svg>

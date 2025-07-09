@@ -36,6 +36,7 @@
   & > p {
     grid-column: S-content / E-content;
     grid-row: S-details / E-details;
+    text-align: justify;
   }
 
   & > .title {
