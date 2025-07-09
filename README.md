@@ -20,6 +20,7 @@ This is a dummy project whose purpose is to practice these concepts:
 
 - Fetch books data.
 - Fetch authors data.
+- Fetch random literature-related question and ask it to user.
 - Show book details in its own page.
 - Show author details in its own page.
 - Store read books.

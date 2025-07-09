@@ -16,11 +16,30 @@
   align-items: center;
   justify-content: center;
   gap: 3rem;
-  background-color: $color-primary-light;
   padding: 8rem;
 
-  & span {
+  position: relative;
+  background-image: url("desktop.png");
+  background-size: cover;
+  background-position: center;
+  z-index: 1;
+
+  // overlay
+  &::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-color: rgba($color-primary-light, 0.8);
+    z-index: 2;
+  }
+
+  span {
     text-align: center;
+  }
+
+  // Don't cover everything with the overlay
+  * {
+    z-index: 3;
   }
 }
 
