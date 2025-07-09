@@ -23,13 +23,13 @@
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="mm"
-     inkscape:zoom="0.38302382"
-     inkscape:cx="3918.8163"
-     inkscape:cy="-1396.78"
-     inkscape:window-width="1006"
-     inkscape:window-height="693"
+     inkscape:zoom="0.52488518"
+     inkscape:cx="4513.368"
+     inkscape:cy="-2337.6541"
+     inkscape:window-width="2536"
+     inkscape:window-height="1399"
      inkscape:window-x="10"
-     inkscape:window-y="733"
+     inkscape:window-y="27"
      inkscape:window-maximized="1"
      inkscape:current-layer="layer1">
     <inkscape:page
@@ -704,7 +704,7 @@
          id="tspan47"
          style="fill:#bf0808;fill-opacity:1;stroke-width:0.065"
          x="191.88208"
-         y="-80.550087">Sobra, se levanta y cambia de color on hover</tspan></text>
+         y="-80.550087">Sombra, se levanta y cambia de color on hover</tspan></text>
     <rect
        style="fill:#4f52b3;fill-opacity:1;stroke:none;stroke-width:0.0649999;-inkscape-stroke:none"
        id="rect47"
@@ -976,5 +976,73 @@
          style="font-size:19.7556px;stroke-width:0.765"
          x="712.26245"
          y="-221.7627">AUTOR</tspan></text>
+    <rect
+       style="fill:#dadbe5;fill-opacity:1;stroke-width:0.0649999;-inkscape-stroke:none"
+       id="rect2"
+       width="145.65071"
+       height="164.14606"
+       x="109.24831"
+       y="-425.94699"
+       ry="6.4733653" />
+    <rect
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.365;stroke-opacity:1;stroke-dasharray:none"
+       id="rect4"
+       width="131.31683"
+       height="55.023605"
+       x="117.57119"
+       y="-418.54886"
+       ry="0" />
+    <path
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.365001;stroke-dasharray:none;stroke-opacity:1"
+       d="m 117.57117,-418.54886 131.31686,55.0236"
+       id="path4" />
+    <path
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.365001;stroke-dasharray:none;stroke-opacity:1"
+       d="m 248.88803,-418.54886 -131.31686,55.0236"
+       id="path5" />
+    <text
+       xml:space="preserve"
+       style="font-weight:bold;font-size:8.46667px;line-height:1.7;font-family:Montserrat;-inkscape-font-specification:'Montserrat Bold';text-align:start;text-decoration-color:#000000;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#2a2a35;fill-opacity:1;stroke:none;stroke-width:0.0649999;-inkscape-stroke:none"
+       x="120.56198"
+       y="-343.89484"
+       id="text26"><tspan
+         sodipodi:role="line"
+         id="tspan26"
+         style="stroke-width:0.065"
+         x="120.56198"
+         y="-343.89484">Nombre</tspan></text>
+    <path
+       sodipodi:type="star"
+       style="fill:#d29b6f;fill-opacity:1;stroke:none;stroke-width:0.0649999;-inkscape-stroke:none"
+       id="path26"
+       inkscape:flatsided="false"
+       sodipodi:sides="5"
+       sodipodi:cx="222.4492"
+       sodipodi:cy="-162.16005"
+       sodipodi:r1="8.8490334"
+       sodipodi:r2="4.4245162"
+       sodipodi:arg1="0.92729522"
+       sodipodi:arg2="1.5556137"
+       inkscape:rounded="0"
+       inkscape:randomized="0"
+       d="m 227.75862,-155.08082 -5.24224,-2.65522 -5.15922,2.81315 0.90532,-5.80618 -4.26975,-4.0374 5.80176,-0.93319 2.52037,-5.3084 2.68036,5.22943 5.82743,0.75662 -4.14521,4.16517 z"
+       inkscape:transform-center-x="0.041515188"
+       inkscape:transform-center-y="-0.80542677"
+       transform="translate(14.510842,-185.18169)" />
+    <path
+       style="fill:none;fill-opacity:1;stroke:#ff0000;stroke-width:0.365001;stroke-dasharray:none;stroke-opacity:1"
+       d="m 347.70641,-198.63354 c 0,0 -9.07341,-108.37688 -101.31978,-138.1175"
+       id="path27" />
+    <text
+       xml:space="preserve"
+       style="font-weight:bold;font-size:19.7556px;line-height:1.7;font-family:Montserrat;-inkscape-font-specification:'Montserrat Bold';text-align:start;text-decoration-color:#000000;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#2a2a35;fill-opacity:1;stroke:none;stroke-width:0.765;stroke-dasharray:none"
+       x="135.51622"
+       y="-453.63879"
+       id="text27"><tspan
+         sodipodi:role="line"
+         id="tspan27"
+         style="font-size:19.7556px;stroke-width:0.765"
+         x="135.51622"
+         y="-453.63879">FavCard</tspan></text>
   </g>
 </svg>
