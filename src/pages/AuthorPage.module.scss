@@ -1,2 +1,12 @@
 .authorPage {
+  display: flex;
+
+  img,
+  section {
+    flex-basis: 50vw;
+  }
+
+  section {
+    margin: 7rem 3rem;
+  }
 }

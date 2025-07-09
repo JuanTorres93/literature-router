@@ -9,10 +9,10 @@ function NavBar() {
           <NavLink to="/">Home</NavLink>
         </li>
         <li>
-          <NavLink to="/fav/books">🧡 books</NavLink>
+          <NavLink to="/books/read">📙 read</NavLink>
         </li>
         <li>
-          <NavLink to="/fav/authors">🧡 authors</NavLink>
+          <NavLink to="/books/wished">🧡 wished</NavLink>
         </li>
       </ul>
     </nav>

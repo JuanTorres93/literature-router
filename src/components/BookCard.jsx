@@ -1,9 +1,9 @@
-import styles from "./FavCard.module.scss";
+import styles from "./BookCard.module.scss";
 import Heart from "./Heart";
 
-function FavCard({ cardTitle, children, onClick }) {
+function BookCard({ cardTitle, children, onClick }) {
   return (
-    <div className={styles.favCard} onClick={onClick}>
+    <div className={styles.bookCard} onClick={onClick}>
       {/* TODO include img and custom alt text */}
       <img src={null} alt="Image alt" />
       <div className={styles.header}>
@@ -31,6 +31,9 @@ export function BookCardContent({ excerpts }) {
   );
 }
 
+// NOTE currently not used. I was implementing a feature that I
+// hadn't planned for this project. I'm keeping the code in casse I
+// need it in the future.
 export function AuthorCardContent({ alternateNames, links }) {
   return (
     <>
@@ -74,4 +77,4 @@ function ColoredListItem({ children }) {
   );
 }
 
-export default FavCard;
+export default BookCard;

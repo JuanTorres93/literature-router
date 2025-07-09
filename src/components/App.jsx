@@ -1,7 +1,7 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import DevelopmentPage from "../pages/DevelopmentPage";
 import HomePage from "../pages/HomePage";
-import FavPage from "../pages/FavPage";
+import ListPage from "../pages/ListPage";
 import BookPage from "../pages/BookPage";
 import AuthorPage from "../pages/AuthorPage";
 import Message from "./Message";
@@ -12,7 +12,7 @@ function App() {
       <Routes>
         <Route path="/" element={<HomePage />} />
         {/* TODO handle invalid parameters in routes */}
-        <Route path="fav/:favtype" element={<FavPage />} />
+        <Route path="books/:type" element={<ListPage />} />
         <Route path="book/:bookId" element={<BookPage />} />
         <Route path="author/:authorId" element={<AuthorPage />} />
 
