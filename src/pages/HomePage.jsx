@@ -20,7 +20,9 @@ function HomePage({ state, dispatch }) {
 
       <section className={styles.listSection}>
         {isLoading && <Loader />}
-        {!isLoading && hasResults && <BookList state={state} />}
+        {!isLoading && hasResults && (
+          <BookList state={state} dispatch={dispatch} />
+        )}
         {!hasResults && !isLoading && (
           <PlainMessage>
             {state.searchQuery

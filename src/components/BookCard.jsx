@@ -1,17 +1,45 @@
+import { useFetch } from "../hooks/useFetch";
+import { useBookCover } from "../hooks/useBookCover";
 import styles from "./BookCard.module.scss";
 import Heart from "./Heart";
 
-function BookCard({ cardTitle, children, onClick }) {
+function BookCard({ bookId, coverId, onClick }) {
+  const { results: book } = useFetch(
+    `https://openlibrary.org/works/${bookId}.json`,
+    null
+  );
+
+  const { coverURL } = useBookCover(coverId);
+
+  const rawExcerpts = book?.excerpts
+    ? book.excerpts.map((obj) => obj.excerpt)
+    : [];
+
+  // at most 3 excerpts
+  const reducedExcerpts = rawExcerpts.slice(0, 3);
+
+  // 20 words per excerpt
+  const excerpts = reducedExcerpts.map((excerpt) => {
+    const words = excerpt.split(" ");
+    return words.length > 20 ? words.slice(0, 20).join(" ") + "..." : excerpt;
+  });
+
   return (
     <div className={styles.bookCard} onClick={onClick}>
-      {/* TODO include img and custom alt text */}
-      <img src={null} alt="Image alt" />
+      <img
+        src={coverId ? coverURL : "no-image.png"}
+        alt={`${book?.title} cover image`}
+      />
+
       <div className={styles.header}>
-        <span>{cardTitle}</span>
-        {/* TODO change true to be data driven */}
+        <span>{book?.title || "Unknown title"}</span>
+        {/* TODO handle remove fav */}
         <Heart isFull={true} />
       </div>
-      {children}
+
+      <BookCardContent
+        excerpts={excerpts?.length > 0 ? excerpts : ["No excerpts available"]}
+      />
     </div>
   );
 }

@@ -16,6 +16,9 @@ const initialState = {
   searchResults: [],
   searchQuery: "",
   fetchingSearchResults: false,
+  wishedBooks: localStorage.getItem("wishedBooks")
+    ? JSON.parse(localStorage.getItem("wishedBooks"))
+    : [],
 };
 
 function reducer(state, action) {
@@ -25,16 +28,37 @@ function reducer(state, action) {
         ...state,
         searchQuery: action.payload,
       };
+
     case "setSearchResults":
       return {
         ...state,
         searchResults: action.payload,
       };
+
     case "setFetchingSearchResults":
       return {
         ...state,
         fetchingSearchResults: action.payload,
       };
+
+    case "addWishedBook": {
+      // Check if the book is already wished
+      const isAlreadyWished = state.wishedBooks.some(
+        (wishedBook) => wishedBook.bookId === action.payload.bookId
+      );
+
+      if (isAlreadyWished) return state;
+
+      const wishedBooks = [...state.wishedBooks, action.payload];
+      localStorage.setItem("wishedBooks", JSON.stringify(wishedBooks));
+      return {
+        ...state,
+        wishedBooks,
+      };
+    }
+
+    // TODO handle remove wished book
+
     default:
       throw new Error(`Unhandled action type: ${action.type}`);
   }
@@ -74,7 +98,10 @@ function App() {
           element={<HomePage state={state} dispatch={dispatch} />}
         />
         {/* TODO handle invalid parameters in routes */}
-        <Route path="books/:type" element={<ListPage />} />
+        <Route
+          path="books/:type"
+          element={<ListPage state={state} dispatch={dispatch} />}
+        />
         <Route path="book/:bookId" element={<BookPage />} />
         <Route path="author/:authorId" element={<AuthorPage />} />
 
