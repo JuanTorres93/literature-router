@@ -1,24 +1,35 @@
 import { useEffect, useState } from "react";
 
-export const useFetch = (url, initialResults = null) => {
+export const useFetch = (url, initialResults = null, debounceDelay = 500) => {
   const [results, setResults] = useState(initialResults);
   const [error, setError] = useState(null);
   const [isLoading, setIsLoading] = useState(false);
+  const [debouncedUrl, setDebouncedUrl] = useState(url);
 
-  // TODO: use debounce for search query updates
+  // Debounce the URL
   useEffect(() => {
+    const timer = setTimeout(() => {
+      setDebouncedUrl(url);
+    }, debounceDelay);
+
+    return () => clearTimeout(timer);
+  }, [url, debounceDelay]);
+
+  // Fetch data with debounced URL
+  useEffect(() => {
+    if (!debouncedUrl) return;
+
     const controller = new AbortController();
 
     const fetchSearchResults = async () => {
       try {
         setIsLoading(true);
         setError(null);
-        const res = await fetch(url, {
+        const res = await fetch(debouncedUrl, {
           signal: controller.signal,
         });
 
-        // TODO handle
-        // if (!res.ok) {}
+        if (!res.ok) throw new Error("Error fetching data");
 
         const data = await res.json();
         setResults(data);
@@ -36,7 +47,7 @@ export const useFetch = (url, initialResults = null) => {
     return () => {
       controller.abort();
     };
-  }, [url]);
+  }, [debouncedUrl]);
 
   return { results, error, isLoading };
 };

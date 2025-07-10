@@ -4,7 +4,6 @@ import { useFetch } from "../hooks/useFetch";
 import { API_BASE_URL } from "../config";
 import styles from "./BookSummary.module.scss";
 import Heart from "./Heart";
-import Loader from "./Loader";
 
 const MAX_WORDS_IN_SUMMARY = 40;
 
