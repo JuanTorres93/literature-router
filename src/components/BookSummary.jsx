@@ -41,13 +41,18 @@ function BookSummary({ bookId, state, dispatch }) {
             <Heart
               isFull={isWished}
               onClick={() =>
-                dispatch({
-                  type: "addWishedBook",
-                  payload: {
-                    bookId: bookId,
-                    coverId: coverId,
-                  },
-                })
+                isWished
+                  ? dispatch({
+                      type: "removeWishedBook",
+                      payload: { bookId: bookId },
+                    })
+                  : dispatch({
+                      type: "addWishedBook",
+                      payload: {
+                        bookId: bookId,
+                        coverId: coverId,
+                      },
+                    })
               }
             />
           </span>

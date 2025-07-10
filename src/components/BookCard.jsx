@@ -3,7 +3,7 @@ import { useBookCover } from "../hooks/useBookCover";
 import styles from "./BookCard.module.scss";
 import Heart from "./Heart";
 
-function BookCard({ bookId, coverId, onClick }) {
+function BookCard({ bookId, coverId, onClick, dispatch }) {
   const { results: book } = useFetch(
     `https://openlibrary.org/works/${bookId}.json`,
     null
@@ -24,6 +24,15 @@ function BookCard({ bookId, coverId, onClick }) {
     return words.length > 20 ? words.slice(0, 20).join(" ") + "..." : excerpt;
   });
 
+  const handleRemoveWishedBook = (e) => {
+    e.stopPropagation();
+
+    dispatch({
+      type: "removeWishedBook",
+      payload: { bookId: bookId },
+    });
+  };
+
   return (
     <div className={styles.bookCard} onClick={onClick}>
       <img
@@ -32,9 +41,8 @@ function BookCard({ bookId, coverId, onClick }) {
       />
 
       <div className={styles.header}>
-        <span>{book?.title || "Unknown title"}</span>
-        {/* TODO handle remove fav */}
-        <Heart isFull={true} />
+        <span>{book?.title || "Loading title..."}</span>
+        <Heart onClick={handleRemoveWishedBook} isFull={true} />
       </div>
 
       <BookCardContent

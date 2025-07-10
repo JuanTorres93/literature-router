@@ -57,7 +57,16 @@ function reducer(state, action) {
       };
     }
 
-    // TODO handle remove wished book
+    case "removeWishedBook": {
+      const wishedBooks = state.wishedBooks.filter(
+        (wishedBook) => wishedBook.bookId !== action.payload.bookId
+      );
+      localStorage.setItem("wishedBooks", JSON.stringify(wishedBooks));
+      return {
+        ...state,
+        wishedBooks,
+      };
+    }
 
     default:
       throw new Error(`Unhandled action type: ${action.type}`);
