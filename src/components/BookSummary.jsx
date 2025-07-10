@@ -4,13 +4,14 @@ import { useFetch } from "../hooks/useFetch";
 import { API_BASE_URL } from "../config";
 import styles from "./BookSummary.module.scss";
 import Heart from "./Heart";
+import Loader from "./Loader";
 
 const MAX_WORDS_IN_SUMMARY = 40;
 
 function BookSummary({ bookId }) {
   const [coverId, setCoverId] = useState(null);
   const [coverURL, setCoverURL] = useState(null);
-  const { results: book } = useFetch(
+  const { results: book, isLoading } = useFetch(
     `${API_BASE_URL}/works/${bookId}.json`,
     null
   );
@@ -35,16 +36,20 @@ function BookSummary({ bookId }) {
 
   return (
     <div className={styles.bookSummary}>
-      <img
-        src={coverId ? coverURL : "no-image.png"}
-        alt={`${book?.title} cover image`}
-      />
-      <h3 className={styles.title}>{book?.title}</h3>
-      <h4 className={styles.author}>by Author</h4>
-      <p>{summary}</p>
-      <span className={styles.favIcon}>
-        <Heart />
-      </span>
+      {isLoading && <Loader />}
+      {!isLoading && (
+        <>
+          <img
+            src={coverId ? coverURL : "no-image.png"}
+            alt={`${book?.title} cover image`}
+          />
+          <h3 className={styles.title}>{book?.title}</h3>
+          <p>{summary}</p>
+          <span className={styles.favIcon}>
+            <Heart />
+          </span>
+        </>
+      )}
     </div>
   );
 }

@@ -60,10 +60,20 @@
     grid-column: S-fav / E-fav;
     grid-row: S-title / E-details;
   }
+
   .title {
     font-weight: 600;
   }
+
   .author {
     font-weight: 500;
+  }
+
+  div // Loader
+  {
+    grid-column: 1 / -1;
+    grid-row: 1 / -1;
+    justify-self: center;
+    align-self: center;
   }
 }

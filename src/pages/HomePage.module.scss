@@ -45,4 +45,14 @@
 
 .listSection {
   overflow-y: scroll;
+  display: flex;
+
+  & > div // Plain message
+  {
+    margin: auto;
+  }
+
+  & > ul {
+    width: 100%;
+  }
 }

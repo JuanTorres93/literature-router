@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 
-export const useFetch = (url, initialResults = null, debounceDelay = 500) => {
+export const useFetch = (url, initialResults = null, debounceDelay = 300) => {
   const [results, setResults] = useState(initialResults);
   const [error, setError] = useState(null);
   const [isLoading, setIsLoading] = useState(false);

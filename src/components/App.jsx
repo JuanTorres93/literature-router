@@ -15,6 +15,7 @@ import { useFetch } from "../hooks/useFetch";
 const initialState = {
   searchResults: [],
   searchQuery: "",
+  fetchingSearchResults: false,
 };
 
 function reducer(state, action) {
@@ -29,6 +30,11 @@ function reducer(state, action) {
         ...state,
         searchResults: action.payload,
       };
+    case "setFetchingSearchResults":
+      return {
+        ...state,
+        fetchingSearchResults: action.payload,
+      };
     default:
       throw new Error(`Unhandled action type: ${action.type}`);
   }
@@ -36,7 +42,7 @@ function reducer(state, action) {
 
 function App() {
   const [state, dispatch] = useReducer(reducer, initialState);
-  const { results: fetchedResults } = useFetch(
+  const { results: fetchedResults, isLoading: fetchingBooks } = useFetch(
     `${API_BASE_URL}/search.json?q=${state.searchQuery}&limit=10`,
     initialState.searchResults
   );
@@ -52,6 +58,13 @@ function App() {
     });
     dispatch({ type: "setSearchResults", payload: results });
   }, [dispatch, fetchedResults]);
+
+  useEffect(() => {
+    dispatch({
+      type: "setFetchingSearchResults",
+      payload: fetchingBooks,
+    });
+  }, [fetchingBooks]);
 
   return (
     <BrowserRouter>
