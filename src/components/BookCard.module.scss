@@ -3,13 +3,14 @@
 .bookCard {
   background-color: $color-surface;
   padding: 1.7rem 2rem;
+  border: 2px solid $color-border;
   border-radius: 0.7rem;
 
   transition: all 0.3s ease-in-out;
 
   &:hover {
     background-color: $color-secondary-light;
-    box-shadow: 0 0.5rem 1rem rgba($color-secondary, 0.1);
+    box-shadow: 0 0.5rem 1.5rem rgba($color-border, 0.6);
     transform: translateY(-0.2rem);
   }
 
@@ -37,12 +38,11 @@
     height: 30rem;
     display: block;
     margin: 0 auto;
-    border: 2px solid $color-border;
     margin-bottom: 3rem;
 
     // Make sure the image is responsive
     object-fit: cover;
-    object-position: top;
+    object-position: center;
   }
 
   .sectionName {

@@ -8,25 +8,29 @@ function ListPage({ state, dispatch }) {
   const navigate = useNavigate();
   const { type } = useParams();
 
-  // TODO use type to select one list or another
+  // if type not in ["wished", "read"], redirect to home
+  if (!["wished", "read"].includes(type)) {
+    navigate("/");
+    return null;
+  }
 
   return (
     <main className={styles.listPage}>
       <NavBar />
 
-      <>
-        {type === "wished" &&
-          state.wishedBooks.length > 0 &&
-          state.wishedBooks.map((wb) => (
-            <BookCard
-              key={wb.bookId}
-              bookId={wb.bookId}
-              coverId={wb.coverId}
-              dispatch={dispatch}
-              onClick={() => navigate(`/book/${wb.bookId}`)}
-            />
-          ))}
-      </>
+      {type === "wished" &&
+        state.wishedBooks.length > 0 &&
+        state.wishedBooks.map((wb) => (
+          <BookCard
+            key={wb.bookId}
+            bookId={wb.bookId}
+            coverId={wb.coverId}
+            dispatch={dispatch}
+            onClick={() => navigate(`/book/${wb.bookId}`)}
+          />
+        ))}
+
+      {type === "read" && "READ BOOKS PAGE!!"}
     </main>
   );
 }
