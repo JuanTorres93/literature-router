@@ -31,6 +31,11 @@
   & > img {
     grid-column: S-img / E-img;
     grid-row: S-title / E-details;
+    align-self: center;
+    justify-self: center;
+
+    width: 100%;
+    height: auto;
   }
 
   & > p {

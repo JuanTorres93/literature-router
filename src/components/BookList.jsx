@@ -1,14 +1,15 @@
 import styles from "./BookList.module.scss";
 import BookSummary from "./BookSummary";
 
-function BookList({ booksIds }) {
+function BookList({ state }) {
+  const { searchResults } = state;
+  const booksId = searchResults.map((book) => book.id);
+
   return (
     <ul className={styles.bookList}>
-      {/* Array of 6 elements */}
-      {/* TODO change to books ids when implementing logic */}
-      {Array.from({ length: 6 }, (_, index) => (
-        <li key={index}>
-          <BookSummary />
+      {booksId.map((bookId) => (
+        <li key={bookId}>
+          <BookSummary bookId={bookId} />
         </li>
       ))}
     </ul>

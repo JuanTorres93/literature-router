@@ -3,7 +3,7 @@ import { useEffect, useRef } from "react";
 import styles from "./SearchBar.module.scss";
 import { useKeydown } from "../hooks/useKeydown";
 
-function SearchBar({ searchTerm, onUpdateSearchTerm }) {
+function SearchBar({ searchTerm, dispatch }) {
   const inputRef = useRef(null);
 
   useEffect(() => {
@@ -20,7 +20,10 @@ function SearchBar({ searchTerm, onUpdateSearchTerm }) {
       inputRef.current.focus();
 
       // Clear the current search term
-      onUpdateSearchTerm("");
+      dispatch({
+        type: "setSearchQuery",
+        payload: "",
+      });
     }
   });
 
@@ -30,7 +33,12 @@ function SearchBar({ searchTerm, onUpdateSearchTerm }) {
       type="text"
       placeholder="Look for something interesting!"
       value={searchTerm}
-      onChange={(e) => onUpdateSearchTerm(e.target.value)}
+      onChange={(e) =>
+        dispatch({
+          type: "setSearchQuery",
+          payload: e.target.value,
+        })
+      }
       ref={inputRef}
     />
   );

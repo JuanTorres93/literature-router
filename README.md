@@ -6,7 +6,7 @@
 
 This is a dummy project whose purpose is to practice these concepts:
 
-- useReducer hook to manage state.
+- useReducer hook to manage global state.
 - Use React Router to manage routes:
   - Regular routes.
   - Nested routes.
