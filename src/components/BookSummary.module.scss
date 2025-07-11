@@ -28,6 +28,13 @@
     transform: translateY(-0.5rem);
   }
 
+  & > div // Loader
+  {
+    grid-column: S-img / E-img !important;
+    grid-row: S-title / E-details !important;
+    align-self: start;
+  }
+
   & > img {
     grid-column: S-img / E-img;
     grid-row: S-title / E-details;

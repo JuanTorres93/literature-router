@@ -2,6 +2,7 @@ import { useFetch } from "../hooks/useFetch";
 import { useBookCover } from "../hooks/useBookCover";
 import styles from "./BookCard.module.scss";
 import Heart from "./Heart";
+import Loader from "./Loader";
 
 function BookCard({ bookId, coverId, onClick, dispatch }) {
   const { results: book } = useFetch(
@@ -9,7 +10,7 @@ function BookCard({ bookId, coverId, onClick, dispatch }) {
     null
   );
 
-  const { coverURL } = useBookCover(coverId);
+  const { coverURL, isCoverLoading, setIsCoverLoading } = useBookCover(coverId);
 
   const rawExcerpts = book?.excerpts
     ? book.excerpts.map((obj) => obj.excerpt)
@@ -35,9 +36,11 @@ function BookCard({ bookId, coverId, onClick, dispatch }) {
 
   return (
     <div className={styles.bookCard} onClick={onClick}>
+      {isCoverLoading && <Loader />}
       <img
         src={coverId ? coverURL : "no-image.png"}
-        alt={`${book?.title} cover image`}
+        alt={isCoverLoading ? "" : `${book?.title} cover image`}
+        onLoad={() => setIsCoverLoading(false)}
       />
 
       <div className={styles.header}>

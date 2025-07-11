@@ -23,10 +23,10 @@
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="mm"
-     inkscape:zoom="0.40779941"
-     inkscape:cx="5870.5333"
-     inkscape:cy="-1481.1203"
-     inkscape:window-width="2536"
+     inkscape:zoom="0.54552647"
+     inkscape:cx="8655.8586"
+     inkscape:cy="-962.37309"
+     inkscape:window-width="1388"
      inkscape:window-height="1399"
      inkscape:window-x="10"
      inkscape:window-y="27"
@@ -1141,5 +1141,160 @@
          style="font-size:19.7556px;stroke-width:0.765"
          x="385.0351"
          y="-455.65509">Author</tspan></text>
+    <rect
+       style="fill:#f5f6fa;fill-opacity:1;stroke:none;stroke-width:0.0649999;-inkscape-stroke:none"
+       id="rect5"
+       width="508"
+       height="285.75"
+       x="1063.7195"
+       y="-194.28981" />
+    <rect
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.765;stroke-dasharray:none"
+       id="rect6"
+       width="254.00003"
+       height="285.75"
+       x="1063.7195"
+       y="-194.28979" />
+    <rect
+       style="fill:#000000;fill-opacity:0;stroke:none;stroke-width:0.0649999;-inkscape-stroke:none"
+       id="rect13"
+       width="254.00002"
+       height="285.75"
+       x="1063.7195"
+       y="-194.28979"
+       ry="4.8862729" />
+    <rect
+       style="fill:#4f52b3;fill-opacity:1;stroke:none;stroke-width:0.0649999;-inkscape-stroke:none"
+       id="rect14"
+       width="220.05894"
+       height="23.187126"
+       x="1088.7932"
+       y="-182.96881"
+       ry="4.8862729" />
+    <text
+       xml:space="preserve"
+       style="font-weight:bold;font-size:8.46667px;line-height:1.7;font-family:Montserrat;-inkscape-font-specification:'Montserrat Bold';text-align:start;text-decoration-color:#000000;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#f5f6fa;fill-opacity:1;stroke:none;stroke-width:0.0649999;-inkscape-stroke:none"
+       x="1174.1042"
+       y="-168.53156"
+       id="text55"><tspan
+         sodipodi:role="line"
+         id="tspan55"
+         style="stroke-width:0.065"
+         x="1174.1042"
+         y="-168.53156">Fav libros</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-weight:bold;font-size:8.46667px;line-height:1.7;font-family:Montserrat;-inkscape-font-specification:'Montserrat Bold';text-align:start;text-decoration-color:#000000;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#f5f6fa;fill-opacity:1;stroke:none;stroke-width:0.0649999;-inkscape-stroke:none"
+       x="1247.1656"
+       y="-168.53156"
+       id="text63"><tspan
+         sodipodi:role="line"
+         id="tspan63"
+         style="stroke-width:0.065"
+         x="1247.1656"
+         y="-168.53156">Fav autores</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-weight:bold;font-size:8.46667px;line-height:1.7;font-family:Montserrat;-inkscape-font-specification:'Montserrat Bold';text-align:start;text-decoration-color:#000000;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#f5f6fa;fill-opacity:1;stroke:none;stroke-width:0.0649999;-inkscape-stroke:none"
+       x="1101.918"
+       y="-168.53156"
+       id="text64"><tspan
+         sodipodi:role="line"
+         id="tspan64"
+         style="stroke-width:0.065"
+         x="1101.918"
+         y="-168.53156">Home</tspan></text>
+    <path
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.765;stroke-dasharray:none"
+       d="m 1063.7195,-194.2898 254,285.749993"
+       id="path64" />
+    <path
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.765;stroke-dasharray:none"
+       d="M 1063.7195,91.460193 1317.7196,-194.2898"
+       id="path65" />
+    <text
+       xml:space="preserve"
+       style="font-weight:bold;font-size:8.46667px;line-height:1.7;font-family:Montserrat;-inkscape-font-specification:'Montserrat Bold';text-align:start;text-decoration-color:#000000;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#bf0808;fill-opacity:1;stroke:none;stroke-width:0.0649999;-inkscape-stroke:none"
+       x="1094.7913"
+       y="-57.766563"
+       id="text65"><tspan
+         sodipodi:role="line"
+         id="tspan65"
+         style="fill:#bf0808;fill-opacity:1;stroke-width:0.065"
+         x="1094.7913"
+         y="-57.766563">BOOK  COVER</tspan></text>
+    <rect
+       style="fill:#dadbe5;fill-opacity:1;stroke:none;stroke-width:0.705396;stroke-dasharray:none"
+       id="rect65"
+       width="234.21004"
+       height="263.4863"
+       x="1327.2188"
+       y="-183.15794" />
+    <text
+       xml:space="preserve"
+       style="font-weight:bold;font-size:8.46667px;line-height:1.7;font-family:Montserrat;-inkscape-font-specification:'Montserrat Bold';text-align:start;text-decoration-color:#000000;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#2a2a35;fill-opacity:1;stroke:none;stroke-width:0.765;stroke-dasharray:none"
+       x="1358.8584"
+       y="-162.78142"
+       id="text66"><tspan
+         sodipodi:role="line"
+         id="tspan66"
+         style="stroke-width:0.765"
+         x="1358.8584"
+         y="-162.78142">TITLE</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-weight:bold;font-size:8.46667px;line-height:1.7;font-family:Montserrat;-inkscape-font-specification:'Montserrat Bold';text-align:start;text-decoration-color:#000000;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#2a2a35;fill-opacity:1;stroke:none;stroke-width:0.765;stroke-dasharray:none"
+       x="1358.8584"
+       y="-115.16774"
+       id="text67"><tspan
+         sodipodi:role="line"
+         id="tspan67"
+         style="stroke-width:0.765"
+         x="1358.8584"
+         y="-115.16774">DESCRIPTION</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-weight:bold;font-size:8.46667px;line-height:1.7;font-family:Montserrat;-inkscape-font-specification:'Montserrat Bold';text-align:start;text-decoration-color:#000000;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#2a2a35;fill-opacity:1;stroke:none;stroke-width:0.765;stroke-dasharray:none"
+       x="1358.8584"
+       y="-45.111301"
+       id="text68"><tspan
+         sodipodi:role="line"
+         id="tspan68"
+         style="stroke-width:0.765"
+         x="1358.8584"
+         y="-45.111301">Characters</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-weight:bold;font-size:8.46667px;line-height:1.7;font-family:Montserrat;-inkscape-font-specification:'Montserrat Bold';text-align:start;text-decoration-color:#000000;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#2a2a35;fill-opacity:1;stroke:none;stroke-width:0.765;stroke-dasharray:none"
+       x="1358.8584"
+       y="1.7908933"
+       id="text69"><tspan
+         sodipodi:role="line"
+         id="tspan69"
+         style="stroke-width:0.765"
+         x="1358.8584"
+         y="1.7908933">Places</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-weight:bold;font-size:19.7556px;line-height:1.7;font-family:Montserrat;-inkscape-font-specification:'Montserrat Bold';text-align:start;text-decoration-color:#000000;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#2a2a35;fill-opacity:1;stroke:none;stroke-width:0.765;stroke-dasharray:none"
+       x="1285.1621"
+       y="-221.7627"
+       id="text70"><tspan
+         sodipodi:role="line"
+         id="tspan70"
+         style="font-size:19.7556px;stroke-width:0.765"
+         x="1285.1621"
+         y="-221.7627">LIBRO</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-weight:bold;font-size:8.46667px;line-height:1.7;font-family:Montserrat;-inkscape-font-specification:'Montserrat Bold';text-align:start;text-decoration-color:#000000;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#2a2a35;fill-opacity:1;stroke:none;stroke-width:0.765;stroke-dasharray:none"
+       x="1358.8584"
+       y="-145.80623"
+       id="text71"><tspan
+         sodipodi:role="line"
+         id="tspan71"
+         style="stroke-width:0.765"
+         x="1358.8584"
+         y="-145.80623">Author</tspan></text>
   </g>
 </svg>

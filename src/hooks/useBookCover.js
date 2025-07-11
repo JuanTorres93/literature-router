@@ -5,6 +5,7 @@ import { API_BASE_URL } from "../config";
 export const useBookCover = (coverId, size = "M") => {
   // size can be "S", "M", "L"
   const [coverURL, setCoverURL] = useState(null);
+  const [isCoverLoading, setIsCoverLoading] = useState(true);
 
   useEffect(() => {
     setCoverURL(
@@ -15,5 +16,5 @@ export const useBookCover = (coverId, size = "M") => {
     );
   }, [coverId, size]);
 
-  return { coverURL };
+  return { coverURL, isCoverLoading, setIsCoverLoading };
 };

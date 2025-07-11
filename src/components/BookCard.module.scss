@@ -14,6 +14,11 @@
     transform: translateY(-0.2rem);
   }
 
+  & > div // Loader
+  {
+    margin: auto;
+  }
+
   .header {
     display: flex;
     justify-content: space-between;

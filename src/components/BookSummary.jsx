@@ -1,7 +1,7 @@
-import { useFetch } from "../hooks/useFetch";
+import { useBook } from "../hooks/useBook";
 import { useBookCover } from "../hooks/useBookCover";
+import { extractCoverId } from "../utils/bookProcess";
 
-import { API_BASE_URL } from "../config";
 import styles from "./BookSummary.module.scss";
 import Heart from "./Heart";
 import Loader from "./Loader";
@@ -9,12 +9,11 @@ import Loader from "./Loader";
 const MAX_WORDS_IN_SUMMARY = 40;
 
 function BookSummary({ bookId, state, dispatch }) {
-  const { results: book, isLoading } = useFetch(
-    `${API_BASE_URL}/works/${bookId}.json`,
-    null
-  );
-  const coverId = book?.covers?.[0] || book?.cover_id || book?.cover_i;
-  const { coverURL } = useBookCover(coverId);
+  const { book, isLoading } = useBook(bookId);
+
+  const coverId = extractCoverId(book);
+  const { coverURL, isCoverLoading, setIsCoverLoading } = useBookCover(coverId);
+
   const isWished = state.wishedBooks.some(
     (wishedBook) => wishedBook.bookId === bookId
   );
@@ -31,10 +30,14 @@ function BookSummary({ bookId, state, dispatch }) {
       {isLoading && <Loader />}
       {!isLoading && (
         <>
+          {isCoverLoading && <Loader />}
+
           <img
             src={coverId ? coverURL : "no-image.png"}
-            alt={`${book?.title} cover image`}
+            alt={isCoverLoading ? "" : `${book?.title} cover image`}
+            onLoad={() => setIsCoverLoading(false)}
           />
+
           <h3 className={styles.title}>{book?.title}</h3>
           <p>{summary}</p>
           <span className={styles.favIcon}>
