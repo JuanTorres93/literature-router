@@ -1,3 +1,5 @@
+import { useNavigate } from "react-router-dom";
+
 import { useBook } from "../hooks/useBook";
 import { useBookCover } from "../hooks/useBookCover";
 import { extractCoverId } from "../utils/bookProcess";
@@ -9,6 +11,7 @@ import Loader from "./Loader";
 const MAX_WORDS_IN_SUMMARY = 40;
 
 function BookSummary({ bookId, state, dispatch }) {
+  const navigate = useNavigate();
   const { book, isLoading } = useBook(bookId);
 
   const coverId = extractCoverId(book);
@@ -25,8 +28,28 @@ function BookSummary({ bookId, state, dispatch }) {
       ? words.slice(0, MAX_WORDS_IN_SUMMARY).join(" ") + "..."
       : description;
 
+  const handleWish = (e) => {
+    e.stopPropagation();
+
+    isWished
+      ? dispatch({
+          type: "removeWishedBook",
+          payload: { bookId: bookId },
+        })
+      : dispatch({
+          type: "addWishedBook",
+          payload: {
+            bookId: bookId,
+            coverId: coverId,
+          },
+        });
+  };
+
   return (
-    <div className={styles.bookSummary}>
+    <div
+      className={styles.bookSummary}
+      onClick={() => navigate(`/book/${bookId}`)}
+    >
       {isLoading && <Loader />}
       {!isLoading && (
         <>
@@ -41,23 +64,7 @@ function BookSummary({ bookId, state, dispatch }) {
           <h3 className={styles.title}>{book?.title}</h3>
           <p>{summary}</p>
           <span className={styles.favIcon}>
-            <Heart
-              isFull={isWished}
-              onClick={() =>
-                isWished
-                  ? dispatch({
-                      type: "removeWishedBook",
-                      payload: { bookId: bookId },
-                    })
-                  : dispatch({
-                      type: "addWishedBook",
-                      payload: {
-                        bookId: bookId,
-                        coverId: coverId,
-                      },
-                    })
-              }
-            />
+            <Heart isFull={isWished} onClick={handleWish} />
           </span>
         </>
       )}

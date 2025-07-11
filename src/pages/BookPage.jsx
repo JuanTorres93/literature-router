@@ -7,6 +7,7 @@ import styles from "./BookPage.module.scss";
 
 import NavBar from "../components/NavBar";
 import Loader from "../components/Loader";
+import ColoredListItem from "../components/ColoredListItem";
 
 function BookPage() {
   const { bookId } = useParams();
@@ -16,15 +17,11 @@ function BookPage() {
     "L"
   );
 
-  // TODO DELETE THESE DEBUG LOGS
-  // console.log("book");
-  // console.log(book);
-
   return (
     <main className={styles.bookPage}>
       <NavBar />
       <section>
-        {isCoverLoading && <Loader />}
+        {(isCoverLoading || isLoading) && <Loader type="loader-square" />}
         <img
           src={coverURL || "no-image.png"}
           alt={isCoverLoading ? "" : `${book?.title} cover image`}
@@ -33,9 +30,42 @@ function BookPage() {
       </section>
 
       <section className={styles.infoSection}>
-        {/* TODO NEXT keep including info and styling */}
-        <h3>{book?.title}</h3>
-        <p>{book?.description}</p>
+        <h3 className={styles.bookTitle}>{book?.title}</h3>
+
+        <section>
+          <h4 className={styles.sectionTitle}>Description</h4>
+          <p>{book?.description || "No description available."}</p>
+        </section>
+
+        {book?.subjects && book.subjects.length > 0 && (
+          <section>
+            <h4 className={styles.sectionTitle}>Subjects</h4>
+            <ul className={styles.list}>
+              {book?.subjects
+                // Filter subjects that are technical or not relevant
+                ?.filter((subject) => !subject.includes("="))
+                .filter((subject) => !subject.includes(":"))
+                .map((subject, index) => (
+                  <ColoredListItem key={index}>{subject}</ColoredListItem>
+                ))}
+            </ul>
+          </section>
+        )}
+
+        {book?.links && book.links.length > 0 && (
+          <section>
+            <h4 className={styles.sectionTitle}>Links</h4>
+            <ul className={styles.list}>
+              {book?.links?.map((link, index) => (
+                <ColoredListItem key={index}>
+                  <a href={link.url} target="_blank" rel="noopener noreferrer">
+                    {link.title}
+                  </a>
+                </ColoredListItem>
+              ))}
+            </ul>
+          </section>
+        )}
       </section>
     </main>
   );

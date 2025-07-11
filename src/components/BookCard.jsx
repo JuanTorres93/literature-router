@@ -3,6 +3,7 @@ import { useBookCover } from "../hooks/useBookCover";
 import styles from "./BookCard.module.scss";
 import Heart from "./Heart";
 import Loader from "./Loader";
+import ColoredListItem from "./ColoredListItem";
 
 function BookCard({ bookId, coverId, onClick, dispatch }) {
   const { results: book } = useFetch(
@@ -96,23 +97,6 @@ export function AuthorCardContent({ alternateNames, links }) {
         ))}
       </ul>
     </>
-  );
-}
-
-function ColoredListItem({ children }) {
-  // Random number between 1 and 9 both included
-  // this will map different colors to the list items according
-  // sass file with classes cardItem____color1 to cardItem____color9
-  const randomNumber = Math.floor(Math.random() * 9) + 1;
-
-  return (
-    <li
-      className={`${styles.cardItem} ${
-        styles[`cardItem____color${randomNumber}`]
-      }`}
-    >
-      {children}
-    </li>
   );
 }
 

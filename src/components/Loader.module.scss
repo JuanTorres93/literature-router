@@ -17,3 +17,27 @@
     transform: rotate(360deg);
   }
 }
+
+// create a loader that is a square and shows an effect that consists of a color going to the right, then it repeats
+.loader-square {
+  width: 50px;
+  height: 50px;
+  background: linear-gradient(
+    90deg,
+    $color-surface,
+    $color-border,
+    $color-border,
+    $color-surface
+  );
+  background-size: 200% 100%;
+  animation: slide 2.5s linear infinite;
+}
+
+@keyframes slide {
+  0% {
+    background-position: 0% 0%;
+  }
+  100% {
+    background-position: 100% 0%;
+  }
+}

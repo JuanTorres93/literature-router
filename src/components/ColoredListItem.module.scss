@@ -1,0 +1,61 @@
+@use "../variables.scss" as *;
+
+.coloredListItem {
+  color: $color-text;
+  font-weight: 500;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+
+  // hyphenate text
+  word-break: break-word;
+  hyphens: auto;
+
+  & > a,
+  & > a:visited {
+    color: inherit;
+    text-decoration: none;
+  }
+
+  & > a:hover {
+    text-decoration: underline;
+  }
+
+  &____color1 {
+    background-color: $color-primary-light;
+    color: $color-bg;
+  }
+
+  &____color2 {
+    background-color: $color-success;
+  }
+
+  &____color3 {
+    background-color: $color-warning;
+  }
+
+  &____color4 {
+    background-color: $color-error;
+  }
+
+  &____color5 {
+    background-color: $color-primary;
+    color: $color-bg;
+  }
+
+  &____color6 {
+    background-color: $color-secondary;
+  }
+
+  &____color7 {
+    background-color: $color-bg;
+  }
+
+  &____color8 {
+    background-color: $color-border;
+  }
+
+  &____color9 {
+    background-color: $color-primary-dark;
+    color: $color-bg;
+  }
+}
