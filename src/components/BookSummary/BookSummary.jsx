@@ -5,8 +5,10 @@ import { useBookCover } from "../../hooks/useBookCover";
 import { extractCoverId } from "../../utils/bookProcess";
 
 import styles from "./BookSummary.module.scss";
-import Heart from "../Heart/Heart";
+import Heart from "../SVG/Heart";
+import BookSVG from "../SVG/BookSVG";
 import Loader from "../Loader/Loader";
+import URLImg from "../URLImg/URLImg";
 
 const MAX_WORDS_IN_SUMMARY = 40;
 
@@ -15,11 +17,12 @@ function BookSummary({ bookId, state, dispatch }) {
   const { book, isLoading } = useBook(bookId);
 
   const coverId = extractCoverId(book);
-  const { coverURL, isCoverLoading, setIsCoverLoading } = useBookCover(coverId);
+  const { coverURL } = useBookCover(coverId);
 
   const isWished = state.wishedBooks.some(
     (wishedBook) => wishedBook.bookId === bookId
   );
+  const isRead = state.readBooks.some((readBook) => readBook.bookId === bookId);
 
   const description = book?.description?.value || book?.description || "";
   const words = description.split(" ");
@@ -45,6 +48,23 @@ function BookSummary({ bookId, state, dispatch }) {
         });
   };
 
+  const handleRead = (e) => {
+    e.stopPropagation();
+
+    isRead
+      ? dispatch({
+          type: "removeReadBook",
+          payload: { bookId: bookId },
+        })
+      : dispatch({
+          type: "addReadBook",
+          payload: {
+            bookId: bookId,
+            coverId: coverId,
+          },
+        });
+  };
+
   return (
     <div
       className={styles.bookSummary}
@@ -53,18 +73,23 @@ function BookSummary({ bookId, state, dispatch }) {
       {isLoading && <Loader />}
       {!isLoading && (
         <>
-          {isCoverLoading && <Loader />}
-
-          <img
-            src={coverId ? coverURL : "no-image.png"}
-            alt={isCoverLoading ? "" : `${book?.title} cover image`}
-            onLoad={() => setIsCoverLoading(false)}
+          <URLImg
+            imgURL={coverURL}
+            loaderElement={<Loader />}
+            altText={`${book?.title} cover image`}
           />
+          {/* 
 
+           */}
           <h3 className={styles.title}>{book?.title}</h3>
           <p>{summary}</p>
           <span className={styles.favIcon}>
             <Heart isFull={isWished} onClick={handleWish} />
+          </span>
+
+          {/* TODO NEXT handle read and isRead instead of wish */}
+          <span className={styles.readIcon}>
+            <BookSVG isFull={isRead} onClick={handleRead} />
           </span>
         </>
       )}

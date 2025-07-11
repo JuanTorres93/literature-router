@@ -63,9 +63,16 @@
     justify-self: end;
   }
 
-  & > .favIcon {
+  & > .favIcon,
+  & > .readIcon {
     grid-column: S-fav / E-fav;
     grid-row: S-title / E-details;
+  }
+  & > .favIcon {
+    margin-bottom: 8rem;
+  }
+  & > .readIcon {
+    margin-top: 8rem;
   }
 
   .title {

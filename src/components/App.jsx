@@ -19,6 +19,9 @@ const initialState = {
   wishedBooks: localStorage.getItem("wishedBooks")
     ? JSON.parse(localStorage.getItem("wishedBooks"))
     : [],
+  readBooks: localStorage.getItem("readBooks")
+    ? JSON.parse(localStorage.getItem("readBooks"))
+    : [],
 };
 
 function reducer(state, action) {
@@ -65,6 +68,33 @@ function reducer(state, action) {
       return {
         ...state,
         wishedBooks,
+      };
+    }
+
+    case "addReadBook": {
+      // Check if the book is already read
+      const isAlreadyRead = state.readBooks.some(
+        (readBook) => readBook.bookId === action.payload.bookId
+      );
+
+      if (isAlreadyRead) return state;
+
+      const readBooks = [...state.readBooks, action.payload];
+      localStorage.setItem("readBooks", JSON.stringify(readBooks));
+      return {
+        ...state,
+        readBooks,
+      };
+    }
+
+    case "removeReadBook": {
+      const readBooks = state.readBooks.filter(
+        (readBook) => readBook.bookId !== action.payload.bookId
+      );
+      localStorage.setItem("readBooks", JSON.stringify(readBooks));
+      return {
+        ...state,
+        readBooks,
       };
     }
 

@@ -1,19 +1,25 @@
+import { useParams } from "react-router-dom";
+
 import { useNavigate } from "react-router-dom";
 import { useFetch } from "../../hooks/useFetch";
 import { useBookCover } from "../../hooks/useBookCover";
 import styles from "./BookCard.module.scss";
-import Heart from "../Heart/Heart";
+import Heart from "../SVG/Heart";
+import BookSVG from "../SVG/BookSVG";
 import Loader from "../Loader/Loader";
 import ColoredListItem from "../ColoredListItem/ColoredListItem";
+import URLImg from "../URLImg/URLImg";
 
 function BookCard({ bookId, coverId, dispatch }) {
   const navigate = useNavigate();
+  const { type } = useParams();
+
   const { results: book } = useFetch(
     `https://openlibrary.org/works/${bookId}.json`,
     null
   );
 
-  const { coverURL, isCoverLoading, setIsCoverLoading } = useBookCover(coverId);
+  const { coverURL } = useBookCover(coverId);
 
   const rawExcerpts = book?.excerpts
     ? book.excerpts.map((obj) => obj.excerpt)
@@ -37,21 +43,35 @@ function BookCard({ bookId, coverId, dispatch }) {
     });
   };
 
+  const handleRemoveReadBook = (e) => {
+    e.stopPropagation();
+
+    dispatch({
+      type: "removeReadBook",
+      payload: { bookId: bookId },
+    });
+  };
+
   return (
     <div
       className={styles.bookCard}
       onClick={() => navigate(`/book/${bookId}`)}
     >
-      {isCoverLoading && <Loader />}
-      <img
-        src={coverId ? coverURL : "no-image.png"}
-        alt={isCoverLoading ? "" : `${book?.title} cover image`}
-        onLoad={() => setIsCoverLoading(false)}
+      <URLImg
+        imgURL={coverURL}
+        altText={book?.title + " cover image"}
+        loaderElement={<Loader />}
       />
 
       <div className={styles.header}>
         <span>{book?.title || "Loading title..."}</span>
-        <Heart onClick={handleRemoveWishedBook} isFull={true} />
+        {type === "wished" && (
+          <Heart onClick={handleRemoveWishedBook} isFull={true} />
+        )}
+
+        {type === "read" && (
+          <BookSVG onClick={handleRemoveReadBook} isFull={true} />
+        )}
       </div>
 
       <BookCardContent

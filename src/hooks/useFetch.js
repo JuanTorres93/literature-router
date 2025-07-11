@@ -32,6 +32,7 @@ export const useFetch = (url, initialResults = null, debounceDelay = 300) => {
         if (!res.ok) throw new Error("Error fetching data");
 
         const data = await res.json();
+
         setResults(data);
         setIsLoading(false);
       } catch (error) {

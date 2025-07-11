@@ -84,3 +84,19 @@
   text-align: center;
   padding: 2rem;
 }
+
+.authorName {
+  display: block;
+  font-weight: 500;
+  font-size: 1.6rem;
+  color: $color-bg;
+  margin-top: 0.5rem;
+  opacity: 0.8;
+
+  & > em {
+    &:hover {
+      color: $color-secondary;
+      cursor: pointer;
+    }
+  }
+}

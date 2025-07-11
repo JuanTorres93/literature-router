@@ -1,36 +1,48 @@
-import { useParams } from "react-router-dom";
+import { useParams, useNavigate } from "react-router-dom";
 
+import { useAuthor } from "../hooks/useAuthor";
 import { useBook } from "../hooks/useBook";
 import { useBookCover } from "../hooks/useBookCover";
-import { extractCoverId } from "../utils/bookProcess";
+import { extractCoverId, extractAuthorId } from "../utils/bookProcess";
 import styles from "./BookPage.module.scss";
 
 import NavBar from "../components/NavBar/NavBar";
 import Loader from "../components/Loader/Loader";
 import ColoredListItem from "../components/ColoredListItem/ColoredListItem";
+import URLImg from "../components/URLImg/URLImg";
 
 function BookPage() {
+  const navigate = useNavigate();
+
   const { bookId } = useParams();
-  const { book, isLoading } = useBook(bookId);
-  const { coverURL, isCoverLoading, setIsCoverLoading } = useBookCover(
-    extractCoverId(book),
-    "L"
-  );
+  const { book } = useBook(bookId);
+  const { coverURL } = useBookCover(extractCoverId(book), "L");
+  const authorId = extractAuthorId(book);
+  const { author, isLoading: isAuthorLoading } = useAuthor(authorId);
 
   return (
     <main className={styles.bookPage}>
       <NavBar />
+
       <section>
-        {(isCoverLoading || isLoading) && <Loader type="loader-square" />}
-        <img
-          src={coverURL || "no-image.png"}
-          alt={isCoverLoading ? "" : `${book?.title} cover image`}
-          onLoad={() => setIsCoverLoading(false)}
+        <URLImg
+          imgURL={coverURL}
+          altText={`${book?.title} cover image`}
+          loaderElement={<Loader type="loader-square" />}
         />
       </section>
 
       <section className={styles.infoSection}>
-        <h3 className={styles.bookTitle}>{book?.title}</h3>
+        <h3 className={styles.bookTitle}>
+          {book?.title}
+
+          <span className={styles.authorName}>
+            {isAuthorLoading ? "" : " by "}
+            <em onClick={() => navigate(`/author/${authorId}`)}>
+              {author?.name}
+            </em>
+          </span>
+        </h3>
 
         <section>
           <h4 className={styles.sectionTitle}>Description</h4>

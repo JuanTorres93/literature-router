@@ -29,7 +29,16 @@ function ListPage({ state, dispatch }) {
           />
         ))}
 
-      {type === "read" && "READ BOOKS PAGE!!"}
+      {type === "read" &&
+        state.readBooks.length > 0 &&
+        state.readBooks.map((rb) => (
+          <BookCard
+            key={rb.bookId}
+            bookId={rb.bookId}
+            coverId={rb.coverId}
+            dispatch={dispatch}
+          />
+        ))}
     </main>
   );
 }
