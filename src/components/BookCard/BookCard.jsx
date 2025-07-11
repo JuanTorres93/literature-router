@@ -1,11 +1,13 @@
-import { useFetch } from "../hooks/useFetch";
-import { useBookCover } from "../hooks/useBookCover";
+import { useNavigate } from "react-router-dom";
+import { useFetch } from "../../hooks/useFetch";
+import { useBookCover } from "../../hooks/useBookCover";
 import styles from "./BookCard.module.scss";
-import Heart from "./Heart";
-import Loader from "./Loader";
-import ColoredListItem from "./ColoredListItem";
+import Heart from "../Heart/Heart";
+import Loader from "../Loader/Loader";
+import ColoredListItem from "../ColoredListItem/ColoredListItem";
 
-function BookCard({ bookId, coverId, onClick, dispatch }) {
+function BookCard({ bookId, coverId, dispatch }) {
+  const navigate = useNavigate();
   const { results: book } = useFetch(
     `https://openlibrary.org/works/${bookId}.json`,
     null
@@ -36,7 +38,10 @@ function BookCard({ bookId, coverId, onClick, dispatch }) {
   };
 
   return (
-    <div className={styles.bookCard} onClick={onClick}>
+    <div
+      className={styles.bookCard}
+      onClick={() => navigate(`/book/${bookId}`)}
+    >
       {isCoverLoading && <Loader />}
       <img
         src={coverId ? coverURL : "no-image.png"}

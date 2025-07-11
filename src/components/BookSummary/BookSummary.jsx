@@ -1,12 +1,12 @@
 import { useNavigate } from "react-router-dom";
 
-import { useBook } from "../hooks/useBook";
-import { useBookCover } from "../hooks/useBookCover";
-import { extractCoverId } from "../utils/bookProcess";
+import { useBook } from "../../hooks/useBook";
+import { useBookCover } from "../../hooks/useBookCover";
+import { extractCoverId } from "../../utils/bookProcess";
 
 import styles from "./BookSummary.module.scss";
-import Heart from "./Heart";
-import Loader from "./Loader";
+import Heart from "../Heart/Heart";
+import Loader from "../Loader/Loader";
 
 const MAX_WORDS_IN_SUMMARY = 40;
 

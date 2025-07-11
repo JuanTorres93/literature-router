@@ -1,5 +1,5 @@
 import styles from "./BookList.module.scss";
-import BookSummary from "./BookSummary";
+import BookSummary from "../BookSummary/BookSummary";
 
 function BookList({ state, dispatch }) {
   const { searchResults } = state;

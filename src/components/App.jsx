@@ -8,7 +8,7 @@ import HomePage from "../pages/HomePage";
 import ListPage from "../pages/ListPage";
 import BookPage from "../pages/BookPage";
 import AuthorPage from "../pages/AuthorPage";
-import Message from "./Message";
+import Message from "./Message/Message";
 
 import { useFetch } from "../hooks/useFetch";
 

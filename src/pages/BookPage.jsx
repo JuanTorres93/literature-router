@@ -5,9 +5,9 @@ import { useBookCover } from "../hooks/useBookCover";
 import { extractCoverId } from "../utils/bookProcess";
 import styles from "./BookPage.module.scss";
 
-import NavBar from "../components/NavBar";
-import Loader from "../components/Loader";
-import ColoredListItem from "../components/ColoredListItem";
+import NavBar from "../components/NavBar/NavBar";
+import Loader from "../components/Loader/Loader";
+import ColoredListItem from "../components/ColoredListItem/ColoredListItem";
 
 function BookPage() {
   const { bookId } = useParams();

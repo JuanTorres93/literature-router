@@ -1,8 +1,8 @@
 import { useParams, useNavigate } from "react-router-dom";
 import styles from "./ListPage.module.scss";
 
-import NavBar from "../components/NavBar";
-import BookCard from "../components/BookCard";
+import NavBar from "../components/NavBar/NavBar";
+import BookCard from "../components/BookCard/BookCard";
 
 function ListPage({ state, dispatch }) {
   const navigate = useNavigate();
@@ -26,7 +26,6 @@ function ListPage({ state, dispatch }) {
             bookId={wb.bookId}
             coverId={wb.coverId}
             dispatch={dispatch}
-            onClick={() => navigate(`/book/${wb.bookId}`)}
           />
         ))}
 

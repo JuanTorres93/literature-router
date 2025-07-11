@@ -1,10 +1,10 @@
 import styles from "./HomePage.module.scss";
-import NavBar from "../components/NavBar";
-import SearchBar from "../components/SearchBar";
-import RandomQuestion from "../components/RandomQuestion";
-import BookList from "../components/BookList";
-import Loader from "../components/Loader";
-import PlainMessage from "../components/PlainMessage";
+import NavBar from "../components/NavBar/NavBar";
+import SearchBar from "../components/SearchBar/SearchBar";
+import RandomQuestion from "../components/RandomQuestion/RandomQuestion";
+import BookList from "../components/BookList/BookList";
+import Loader from "../components/Loader/Loader";
+import PlainMessage from "../components/PlainMessage/PlainMessage";
 
 function HomePage({ state, dispatch }) {
   const hasResults = state.searchResults.length > 0;

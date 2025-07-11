@@ -1,7 +1,7 @@
 import { useParams } from "react-router-dom";
-import NavBar from "../components/NavBar";
+import NavBar from "../components/NavBar/NavBar";
 import styles from "./AuthorPage.module.scss";
-import AuthorDetails from "../components/AuthorDetails";
+import AuthorDetails from "../components/AuthorDetails/AuthorDetails";
 
 function AuthorPage() {
   const { authorId } = useParams();

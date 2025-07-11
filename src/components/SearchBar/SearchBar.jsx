@@ -1,7 +1,7 @@
 import { useEffect, useRef } from "react";
 
 import styles from "./SearchBar.module.scss";
-import { useKeydown } from "../hooks/useKeydown";
+import { useKeydown } from "../../hooks/useKeydown";
 
 function SearchBar({ searchTerm, dispatch }) {
   const inputRef = useRef(null);

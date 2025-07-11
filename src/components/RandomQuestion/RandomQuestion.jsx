@@ -2,8 +2,8 @@ import { useState, useEffect } from "react";
 import { decode } from "he";
 import styles from "./RandomQuestion.module.scss";
 
-import Loader from "./Loader";
-import Message from "./Message";
+import Loader from "../Loader/Loader";
+import Message from "../Message/Message";
 
 function RandomQuestion() {
   const [question, setQuestion] = useState("");
