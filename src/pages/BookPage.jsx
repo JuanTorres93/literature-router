@@ -15,7 +15,7 @@ function BookPage() {
   const navigate = useNavigate();
 
   const { bookId } = useParams();
-  const { book } = useBook(bookId);
+  const { book, isLoading } = useBook(bookId);
   const { coverURL } = useBookCover(extractCoverId(book), "L");
   const authorId = extractAuthorId(book);
   const { author, isLoading: isAuthorLoading } = useAuthor(authorId);
@@ -33,50 +33,69 @@ function BookPage() {
       </section>
 
       <section className={styles.infoSection}>
-        <h3 className={styles.bookTitle}>
-          {book?.title}
+        {isLoading ? (
+          <Loader type="loader-square" />
+        ) : (
+          <>
+            <h3 className={styles.bookTitle}>
+              {book?.title}
 
-          <span className={styles.authorName}>
-            {isAuthorLoading ? "" : " by "}
-            <em onClick={() => navigate(`/author/${authorId}`)}>
-              {author?.name}
-            </em>
-          </span>
-        </h3>
+              <span className={styles.authorName}>
+                {isAuthorLoading ? "" : " by "}
+                <em onClick={() => navigate(`/author/${authorId}`)}>
+                  {isAuthorLoading ? "..." : author?.name}
+                </em>
+              </span>
+            </h3>
 
-        <section>
-          <h4 className={styles.sectionTitle}>Description</h4>
-          <p>{book?.description || "No description available."}</p>
-        </section>
+            <section>
+              <h4 className={styles.sectionTitle}>Description</h4>
+              <p>{book?.description || "No description available."}</p>
+            </section>
 
-        {book?.subjects && book.subjects.length > 0 && (
-          <section>
-            <h4 className={styles.sectionTitle}>Subjects</h4>
-            <ul className={styles.list}>
-              {book?.subjects
-                // Filter subjects that are technical or not relevant
-                ?.filter((subject) => !subject.includes("="))
-                .filter((subject) => !subject.includes(":"))
-                .map((subject, index) => (
-                  <ColoredListItem key={index}>{subject}</ColoredListItem>
-                ))}
-            </ul>
-          </section>
-        )}
+            {book?.subjects && book.subjects.length > 0 && (
+              <section>
+                <h4 className={styles.sectionTitle}>Subjects</h4>
+                {isLoading ? (
+                  <Loader />
+                ) : (
+                  <ul className={styles.list}>
+                    {book?.subjects
+                      // Filter subjects that are technical or not relevant
+                      ?.filter((subject) => !subject.includes("="))
+                      .filter((subject) => !subject.includes(":"))
+                      .map((subject, index) => (
+                        <ColoredListItem key={index}>{subject}</ColoredListItem>
+                      ))}
+                  </ul>
+                )}
+              </section>
+            )}
 
-        {book?.links && book.links.length > 0 && (
-          <section>
-            <h4 className={styles.sectionTitle}>Links</h4>
-            <ul className={styles.list}>
-              {book?.links?.map((link, index) => (
-                <ColoredListItem key={index}>
-                  <a href={link.url} target="_blank" rel="noopener noreferrer">
-                    {link.title}
-                  </a>
-                </ColoredListItem>
-              ))}
-            </ul>
-          </section>
+            {book?.links && book.links.length > 0 && (
+              <section>
+                <h4 className={styles.sectionTitle}>Links</h4>
+
+                {isLoading ? (
+                  <Loader />
+                ) : (
+                  <ul className={styles.list}>
+                    {book?.links?.map((link, index) => (
+                      <ColoredListItem key={index}>
+                        <a
+                          href={link.url}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                        >
+                          {link.title}
+                        </a>
+                      </ColoredListItem>
+                    ))}
+                  </ul>
+                )}
+              </section>
+            )}
+          </>
         )}
       </section>
     </main>

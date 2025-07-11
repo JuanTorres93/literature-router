@@ -83,4 +83,10 @@
   color: $color-bg;
   text-align: center;
   padding: 2rem;
+
+  & > em {
+    font-size: 1.7rem;
+    opacity: 0.8;
+    display: block;
+  }
 }
