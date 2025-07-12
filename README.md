@@ -1,6 +1,4 @@
-<!-- TODO change when project is finished -->
-
-![Static Badge](https://img.shields.io/badge/Status-Work%20in%20progress-purple)
+![Static Badge](https://img.shields.io/badge/Status-Finished-darkgreen)
 
 # 🌕 Project's purpose
 
@@ -37,4 +35,18 @@ API DOC: https://openlibrary.org/developers/api
 
 # 🖼️ Project's screenshots
 
-TODO include when finished
+## Home page
+
+![Home page](./github/1-Home.png)
+
+## Read / Wished page
+
+![Read / Wished page](./github/2-Read_wished.png)
+
+## Book page
+
+![Book page](./github/3-book-page.png)
+
+## Author page
+
+![Author page](./github/4-author-page.png)

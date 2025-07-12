@@ -3,7 +3,11 @@ import { useParams, useNavigate } from "react-router-dom";
 import { useAuthor } from "../hooks/useAuthor";
 import { useBook } from "../hooks/useBook";
 import { useBookCover } from "../hooks/useBookCover";
-import { extractCoverId, extractAuthorId } from "../utils/bookProcess";
+import {
+  extractCoverId,
+  extractAuthorId,
+  extractDescription,
+} from "../utils/bookProcess";
 import styles from "./BookPage.module.scss";
 
 import NavBar from "../components/NavBar/NavBar";
@@ -19,6 +23,10 @@ function BookPage() {
   const { coverURL } = useBookCover(extractCoverId(book), "L");
   const authorId = extractAuthorId(book);
   const { author, isLoading: isAuthorLoading } = useAuthor(authorId);
+
+  // TODO DELETE THESE DEBUG LOGS
+  console.log("book");
+  console.log(book);
 
   return (
     <main className={styles.bookPage}>
@@ -50,7 +58,7 @@ function BookPage() {
 
             <section>
               <h4 className={styles.sectionTitle}>Description</h4>
-              <p>{book?.description || "No description available."}</p>
+              <p>{extractDescription(book)}</p>
             </section>
 
             {book?.subjects && book.subjects.length > 0 && (

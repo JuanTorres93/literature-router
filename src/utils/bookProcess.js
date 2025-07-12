@@ -12,3 +12,17 @@ export const extractAuthorId = (book) => {
   // NOTE: can be multiple authors, but I'm not going to handle it in this app
   return ids[0];
 };
+
+export const extractDescription = (book) => {
+  const description = book?.description?.value || book?.description;
+
+  if (typeof description === "string") {
+    return description;
+  }
+
+  if (typeof description === "object" && description?.type === "text") {
+    return description.value;
+  }
+
+  return "No description available.";
+};
