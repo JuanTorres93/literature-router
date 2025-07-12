@@ -1,3 +1,6 @@
+import { useState } from "react";
+import { useSearchParams } from "react-router-dom";
+
 import styles from "./HomePage.module.scss";
 import NavBar from "../components/NavBar/NavBar";
 import SearchBar from "../components/SearchBar/SearchBar";
@@ -10,12 +13,23 @@ function HomePage({ state, dispatch }) {
   const hasResults = state.searchResults.length > 0;
   const isLoading = state.fetchingSearchResults;
 
+  const [searchParams, setSearchParams] = useSearchParams();
+  const sortBy = searchParams.get("sortBy") || "";
+
   return (
     <main className={styles.homePage}>
       <NavBar />
       <section className={styles.searchSection}>
         <RandomQuestion />
         <SearchBar searchTerm={state.searchQuery} dispatch={dispatch} />
+        <select
+          value={sortBy}
+          onChange={(e) => setSearchParams({ sortBy: e.target.value })}
+        >
+          <option value="">Sort by</option>
+          <option value="title">Title</option>
+          {/* Add more sorting options here if needed */}
+        </select>
       </section>
 
       <section className={styles.listSection}>

@@ -1,5 +1,3 @@
-import { useParams } from "react-router-dom";
-
 import { useNavigate } from "react-router-dom";
 import { useFetch } from "../../hooks/useFetch";
 import { useBookCover } from "../../hooks/useBookCover";
@@ -10,9 +8,8 @@ import Loader from "../Loader/Loader";
 import ColoredListItem from "../ColoredListItem/ColoredListItem";
 import URLImg from "../URLImg/URLImg";
 
-function BookCard({ bookId, coverId, dispatch }) {
+function BookCard({ bookId, coverId, dispatch, type }) {
   const navigate = useNavigate();
-  const { type } = useParams();
 
   const { results: book } = useFetch(
     `https://openlibrary.org/works/${bookId}.json`,
