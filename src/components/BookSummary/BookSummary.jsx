@@ -9,11 +9,13 @@ import Heart from "../SVG/Heart";
 import BookSVG from "../SVG/BookSVG";
 import Loader from "../Loader/Loader";
 import URLImg from "../URLImg/URLImg";
+import { useBooks } from "../../contexts/BooksContext";
 
 const MAX_WORDS_IN_SUMMARY = 40;
 
-function BookSummary({ bookId, state, dispatch }) {
+function BookSummary({ bookId }) {
   const navigate = useNavigate();
+  const { state, dispatch } = useBooks();
   const { book, isLoading } = useBook(bookId);
 
   const coverId = extractCoverId(book);
@@ -87,7 +89,6 @@ function BookSummary({ bookId, state, dispatch }) {
             <Heart isFull={isWished} onClick={handleWish} />
           </span>
 
-          {/* TODO NEXT handle read and isRead instead of wish */}
           <span className={styles.readIcon}>
             <BookSVG isFull={isRead} onClick={handleRead} />
           </span>

@@ -9,7 +9,11 @@ import BookList from "../components/BookList/BookList";
 import Loader from "../components/Loader/Loader";
 import PlainMessage from "../components/PlainMessage/PlainMessage";
 
-function HomePage({ state, dispatch }) {
+import { useBooks } from "../contexts/BooksContext";
+
+function HomePage() {
+  const { state } = useBooks();
+
   const hasResults = state.searchResults.length > 0;
   const isLoading = state.fetchingSearchResults;
 
@@ -21,7 +25,7 @@ function HomePage({ state, dispatch }) {
       <NavBar />
       <section className={styles.searchSection}>
         <RandomQuestion />
-        <SearchBar searchTerm={state.searchQuery} dispatch={dispatch} />
+        <SearchBar />
         <select
           value={sortBy}
           onChange={(e) => setSearchParams({ sortBy: e.target.value })}
@@ -34,9 +38,7 @@ function HomePage({ state, dispatch }) {
 
       <section className={styles.listSection}>
         {isLoading && <Loader />}
-        {!isLoading && hasResults && (
-          <BookList state={state} dispatch={dispatch} />
-        )}
+        {!isLoading && hasResults && <BookList />}
         {!hasResults && !isLoading && (
           <PlainMessage>
             {state.searchQuery

@@ -1,4 +1,8 @@
-export const initialState = {
+import { createContext, useContext, useEffect, useReducer } from "react";
+import { useFetch } from "../hooks/useFetch";
+import { API_BASE_URL } from "../config";
+
+const initialState = {
   searchResults: [],
   searchQuery: "",
   fetchingSearchResults: false,
@@ -10,7 +14,7 @@ export const initialState = {
     : [],
 };
 
-export function reducer(state, action) {
+function reducer(state, action) {
   switch (action.type) {
     case "setSearchQuery":
       return {
@@ -88,3 +92,58 @@ export function reducer(state, action) {
       throw new Error(`Unhandled action type: ${action.type}`);
   }
 }
+
+// Create a new context
+const BooksContext = createContext();
+
+function BooksProvider({ children }) {
+  const [state, dispatch] = useReducer(reducer, initialState);
+  const { results: fetchedResults, isLoading: fetchingBooks } = useFetch(
+    `${API_BASE_URL}/search.json?q=${state.searchQuery}&limit=7`,
+    initialState.searchResults
+  );
+
+  useEffect(() => {
+    const foundResults = fetchedResults.numFound > 0 ? fetchedResults.docs : [];
+    const results = foundResults.map((result) => {
+      return {
+        id: result.key.split("/").pop(),
+        // NOTE: can be multiple authors, but I'm not going to handle it in this app
+        authorId: result.author_key && result.author_key[0],
+        title: result.title ? result.title : "",
+      };
+    });
+    dispatch({ type: "setSearchResults", payload: results });
+  }, [dispatch, fetchedResults]);
+
+  useEffect(() => {
+    dispatch({
+      type: "setFetchingSearchResults",
+      payload: fetchingBooks,
+    });
+  }, [fetchingBooks]);
+
+  return (
+    // Provide the context value to child components
+    <BooksContext.Provider
+      value={{
+        state,
+        dispatch,
+      }}
+    >
+      {children}
+    </BooksContext.Provider>
+  );
+}
+
+// Custom hook to make it easier to consume the context
+export function useBooks() {
+  const value = useContext(BooksContext);
+
+  if (value === undefined) {
+    throw new Error("useBooks must be used within a BooksProvider");
+  }
+  return value;
+}
+
+export default BooksProvider;

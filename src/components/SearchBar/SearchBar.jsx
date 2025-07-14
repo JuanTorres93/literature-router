@@ -2,8 +2,12 @@ import { useEffect, useRef } from "react";
 
 import styles from "./SearchBar.module.scss";
 import { useKeydown } from "../../hooks/useKeydown";
+import { useBooks } from "../../contexts/BooksContext";
 
-function SearchBar({ searchTerm, dispatch }) {
+function SearchBar() {
+  const { state, dispatch } = useBooks();
+  const searchTerm = state.searchQuery;
+
   const inputRef = useRef(null);
 
   useEffect(() => {

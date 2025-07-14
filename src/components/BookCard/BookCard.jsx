@@ -7,9 +7,11 @@ import BookSVG from "../SVG/BookSVG";
 import Loader from "../Loader/Loader";
 import ColoredListItem from "../ColoredListItem/ColoredListItem";
 import URLImg from "../URLImg/URLImg";
+import { useBooks } from "../../contexts/BooksContext";
 
-function BookCard({ bookId, coverId, dispatch, type }) {
+function BookCard({ bookId, coverId, type }) {
   const navigate = useNavigate();
+  const { dispatch } = useBooks();
 
   const { results: book } = useFetch(
     `https://openlibrary.org/works/${bookId}.json`,

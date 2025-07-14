@@ -3,13 +3,15 @@ import { useSearchParams } from "react-router-dom";
 
 import styles from "./BookList.module.scss";
 import BookSummary from "../BookSummary/BookSummary";
+import { useBooks } from "../../contexts/BooksContext";
 
-function BookList({ state, dispatch }) {
+function BookList() {
+  const { state } = useBooks();
   const { searchResults } = state;
 
   const [booksIds, setBooksIds] = useState([]);
 
-  const [searchParams, setSearchParams] = useSearchParams();
+  const [searchParams] = useSearchParams();
 
   const sortBy = searchParams.get("sortBy") || "";
 
@@ -31,7 +33,7 @@ function BookList({ state, dispatch }) {
     <ul className={styles.bookList}>
       {booksIds.map((bookId) => (
         <li key={bookId}>
-          <BookSummary state={state} bookId={bookId} dispatch={dispatch} />
+          <BookSummary bookId={bookId} />
         </li>
       ))}
     </ul>
